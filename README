@@ -1,3 +1,3 @@
 This is a wp-content folder, which you'll want to plonk into a fresh install of Wordpress 3.0.1, replacing the default wp-content folder.
 
-
+You will probably want a SQL dump of the test database to get going. Please contact Jonathan Lister at jonathan@withjandj.com for this.
