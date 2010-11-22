@@ -1,0 +1,432 @@
+# SOME DESCRIPTIVE TITLE.
+# This file is put in the public domain.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Mappress\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2009-07-21 21:38+0200\n"
+"PO-Revision-Date: 2009-07-21 21:44+0200\n"
+"Last-Translator: Jaakko Kangosjärvi <jaakko@kangosjarvi.net>\n"
+"Language-Team: Monttu <jaska@kangosjarvi.net>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: Finnish\n"
+"X-Poedit-Country: FINLAND\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SearchPath-0: C:\\D\\Blogit\\plugins\\mappress-google-maps-for-wordpress\n"
+
+#: C:\D\Blogit\plugins\mappress-google-maps-for-wordpress/mappress.php:173
+msgid "Google error: BAD REQUEST"
+msgstr "Googlen virhe: paha pyyntö!"
+
+#: C:\D\Blogit\plugins\mappress-google-maps-for-wordpress/mappress.php:174
+msgid "Google internal error.  Try again later."
+msgstr "Googlen sisäinen virhe. Yritä myöhemmin uudelleen."
+
+#: C:\D\Blogit\plugins\mappress-google-maps-for-wordpress/mappress.php:175
+msgid "The starting or ending address was missing."
+msgstr "Lähtöpaikan tai määränpään osoite puuttuu."
+
+#: C:\D\Blogit\plugins\mappress-google-maps-for-wordpress/mappress.php:176
+msgid "The starting or ending address could not be found."
+msgstr "Lähtöpaikan tai määränpään osoitetta ei voida löytää."
+
+#: C:\D\Blogit\plugins\mappress-google-maps-for-wordpress/mappress.php:177
+msgid "Google cannot return those directions for legal or contractual reasons"
+msgstr "Google ei voi antaa ajo-ohjeita laki- tai sopimusteknisistä syistä."
+
+#: C:\D\Blogit\plugins\mappress-google-maps-for-wordpress/mappress.php:178
+msgid "Google cannot return directions between those addresses.  There is no route between them or the routing information is not available."
+msgstr "Google ei pysty luomaan reittiä osoitteidesi välille. Tieyhteyttä ei ole tai ajo-ohjeita ei ole saatavilla."
+
+#: C:\D\Blogit\plugins\mappress-google-maps-for-wordpress/mappress.php:179
+msgid "Invalid map API key"
+msgstr "API-avain ei kelpaa"
+
+#: C:\D\Blogit\plugins\mappress-google-maps-for-wordpress/mappress.php:180
+msgid "Your key has issued too many queries in one day."
+msgstr "Avaimellasi on tehty liikaa päivittäisiä hakuja."
+
+#: C:\D\Blogit\plugins\mappress-google-maps-for-wordpress/mappress.php:181
+msgid "Unknown error, unable to return directions.  Status code = "
+msgstr "Tuntematon virhe, ajo-ohjeita ei voi ladata. Tilatunnus ="
+
+#: C:\D\Blogit\plugins\mappress-google-maps-for-wordpress/mappress.php:182
+msgid "Enter address"
+msgstr "Anna osoite"
+
+#: C:\D\Blogit\plugins\mappress-google-maps-for-wordpress/mappress.php:183
+#: C:\D\Blogit\plugins\mappress-google-maps-for-wordpress/mappress.php:254
+msgid "No matching address"
+msgstr "Osoitetta ei löydy"
+
+#: C:\D\Blogit\plugins\mappress-google-maps-for-wordpress/mappress.php:184
+msgid "Did you mean: "
+msgstr "Tarkoititko:"
+
+#: C:\D\Blogit\plugins\mappress-google-maps-for-wordpress/mappress.php:185
+msgid "Error: your browser does not seem to support the street view Flash player"
+msgstr "Virhe: selaimesi ei näytä tukevan katunäkymään tarvittavaa Flash-soitinta"
+
+#: C:\D\Blogit\plugins\mappress-google-maps-for-wordpress/mappress.php:186
+msgid "Sorry, no street view data is available for this location"
+msgstr "Sorry, katunäkymää ei ole saatavana tähän osoitteeseen"
+
+#: C:\D\Blogit\plugins\mappress-google-maps-for-wordpress/mappress.php:187
+msgid "Sorry, Google was unable to display the street view in your browser"
+msgstr "Sorry, Google ei voi näyttää katunäkymää selaimessasi"
+
+#: C:\D\Blogit\plugins\mappress-google-maps-for-wordpress/mappress.php:188
+msgid "Street view"
+msgstr "Katunäkymä"
+
+#: C:\D\Blogit\plugins\mappress-google-maps-for-wordpress/mappress.php:189
+msgid "Get directions"
+msgstr "Hae ajo-ohjeet"
+
+#: C:\D\Blogit\plugins\mappress-google-maps-for-wordpress/mappress.php:190
+msgid "Address"
+msgstr "Osoite <small>(HUOM! å=a, ä=a, ö=o)</small>"
+
+#: C:\D\Blogit\plugins\mappress-google-maps-for-wordpress/mappress.php:191
+msgid "to here"
+msgstr "tänne"
+
+#: C:\D\Blogit\plugins\mappress-google-maps-for-wordpress/mappress.php:192
+msgid "from here"
+msgstr "täältä"
+
+#: C:\D\Blogit\plugins\mappress-google-maps-for-wordpress/mappress.php:193
+msgid "Go"
+msgstr "Hae"
+
+#: C:\D\Blogit\plugins\mappress-google-maps-for-wordpress/mappress.php:251
+msgid "Please enter your API key. Need an API key?  Get one "
+msgstr "Ole hyvä ja anna API-avaimesi. Jos sinulla ei ole sellaista, saat omasi"
+
+#: C:\D\Blogit\plugins\mappress-google-maps-for-wordpress/mappress.php:252
+msgid "MapPress could not load google maps.  Either your browser is incompatible or your API key is invalid.  Need an API key?  Get one "
+msgstr "MapPress ei voinut ladata karttaa. Selaimesi on kelvoton tai API-avaimesi ei kelpaa. Saat API-avaimen "
+
+#: C:\D\Blogit\plugins\mappress-google-maps-for-wordpress/mappress.php:253
+msgid "here"
+msgstr "täältä"
+
+#: C:\D\Blogit\plugins\mappress-google-maps-for-wordpress/mappress.php:255
+msgid "That address is already on the map : "
+msgstr "Osoite on jo kartalla:"
+
+#: C:\D\Blogit\plugins\mappress-google-maps-for-wordpress/mappress.php:256
+msgid "Edit"
+msgstr "Muokkaa"
+
+#: C:\D\Blogit\plugins\mappress-google-maps-for-wordpress/mappress.php:257
+msgid "Save"
+msgstr "Tallenna"
+
+#: C:\D\Blogit\plugins\mappress-google-maps-for-wordpress/mappress.php:258
+msgid "Cancel"
+msgstr "Peru"
+
+#: C:\D\Blogit\plugins\mappress-google-maps-for-wordpress/mappress.php:259
+msgid "Delete"
+msgstr "Poista"
+
+#: C:\D\Blogit\plugins\mappress-google-maps-for-wordpress/mappress.php:260
+msgid "Please enter a location to map"
+msgstr "Anna sijainti kartalla"
+
+#: C:\D\Blogit\plugins\mappress-google-maps-for-wordpress/mappress.php:261
+msgid "Title"
+msgstr "Otsikko"
+
+#: C:\D\Blogit\plugins\mappress-google-maps-for-wordpress/mappress.php:262
+msgid "Delete this map marker?"
+msgstr "Poistetaanko merkitsin?"
+
+#: C:\D\Blogit\plugins\mappress-google-maps-for-wordpress/mappress.php:263
+msgid "Press escape or click here to cancel: "
+msgstr "Paina esc tai sulje klikkaamalla: "
+
+#: C:\D\Blogit\plugins\mappress-google-maps-for-wordpress/mappress.php:264
+#: C:\D\Blogit\plugins\mappress-google-maps-for-wordpress/mappress.php:666
+msgid "Currently mapped"
+msgstr "Nyt kartalla"
+
+#: C:\D\Blogit\plugins\mappress-google-maps-for-wordpress/mappress.php:442
+msgid "MapPress isn't ready yet.  Please enter your Google Maps API Key on the "
+msgstr "MapPress ei ole vielä valmis. Ole hyvä ja anna Google Maps API-avaimesi: "
+
+#: C:\D\Blogit\plugins\mappress-google-maps-for-wordpress/mappress.php:444
+msgid "MapPress options screen."
+msgstr "MapPress Asetusnäkymä"
+
+#: C:\D\Blogit\plugins\mappress-google-maps-for-wordpress/mappress.php:512
+msgid "Small"
+msgstr "Pieni"
+
+#: C:\D\Blogit\plugins\mappress-google-maps-for-wordpress/mappress.php:514
+msgid "Medium"
+msgstr "Keskikoko"
+
+#: C:\D\Blogit\plugins\mappress-google-maps-for-wordpress/mappress.php:516
+msgid "Large"
+msgstr "Suuri"
+
+#: C:\D\Blogit\plugins\mappress-google-maps-for-wordpress/mappress.php:523
+msgid "Custom"
+msgstr "Valinnainen"
+
+#: C:\D\Blogit\plugins\mappress-google-maps-for-wordpress/mappress.php:626
+#: C:\D\Blogit\plugins\mappress-google-maps-for-wordpress/mappress.php:849
+msgid "Report a bug"
+msgstr "Ilmoita virheestä"
+
+#: C:\D\Blogit\plugins\mappress-google-maps-for-wordpress/mappress.php:627
+#: C:\D\Blogit\plugins\mappress-google-maps-for-wordpress/mappress.php:850
+msgid "MapPress help"
+msgstr "MapPress Help"
+
+#: C:\D\Blogit\plugins\mappress-google-maps-for-wordpress/mappress.php:629
+msgid "Map size"
+msgstr "Kartan koko"
+
+#: C:\D\Blogit\plugins\mappress-google-maps-for-wordpress/mappress.php:638
+msgid "Insert map shortcode in post &raquo;"
+msgstr "Liitä kartta merkintään &raquo;"
+
+#: C:\D\Blogit\plugins\mappress-google-maps-for-wordpress/mappress.php:643
+msgid "Add locations"
+msgstr "Lisää sijainteja"
+
+#: C:\D\Blogit\plugins\mappress-google-maps-for-wordpress/mappress.php:644
+msgid "Street Address, city, state, country, or place"
+msgstr "Katuosoite, kaupunki, maakunta, maa tai paikka"
+
+#: C:\D\Blogit\plugins\mappress-google-maps-for-wordpress/mappress.php:647
+msgid "Latitude/Longitude "
+msgstr "Leveysaste/Pituusaste"
+
+#: C:\D\Blogit\plugins\mappress-google-maps-for-wordpress/mappress.php:651
+msgid "Add location"
+msgstr "Lisää sijainti"
+
+#: C:\D\Blogit\plugins\mappress-google-maps-for-wordpress/mappress.php:656
+msgid "Preview"
+msgstr "Esikatselu"
+
+#: C:\D\Blogit\plugins\mappress-google-maps-for-wordpress/mappress.php:659
+msgid "Automatically center/zoom map when saved (uncheck to display map exactly as shown below)"
+msgstr "Keskitä ja lähennä kartta automaattisesti tallennettaessa (ilman valintaa kartta näytetään juuri kuten alla)"
+
+#: C:\D\Blogit\plugins\mappress-google-maps-for-wordpress/mappress.php:662
+msgid "Center/zoom now"
+msgstr "Keskitä/lähennä nyt"
+
+#: C:\D\Blogit\plugins\mappress-google-maps-for-wordpress/mappress.php:667
+msgid "Click on a marker or use the links below to edit or delete markers."
+msgstr "Klikkaa merkitsintä tai käytä alla olevia linkkejä, jos haluat muokata tai poistaa merkitsimiä."
+
+#: C:\D\Blogit\plugins\mappress-google-maps-for-wordpress/mappress.php:696
+msgid "Close"
+msgstr "Sulje"
+
+#: C:\D\Blogit\plugins\mappress-google-maps-for-wordpress/mappress.php:723
+msgid "Get Directions"
+msgstr "Hae ajo-ohjeet "
+
+#: C:\D\Blogit\plugins\mappress-google-maps-for-wordpress/mappress.php:724
+msgid "Print Directions"
+msgstr "Tulosta ajo-ohjeet "
+
+#: C:\D\Blogit\plugins\mappress-google-maps-for-wordpress/mappress.php:804
+msgid "ACCESS DENIED: You don't have permission to do this."
+msgstr "PÄÄSY ESTETTY: Sinulla ei ole oikeuksia tähän."
+
+#: C:\D\Blogit\plugins\mappress-google-maps-for-wordpress/mappress.php:830
+msgid "Settings saved"
+msgstr "Asetukset tallennettu"
+
+#: C:\D\Blogit\plugins\mappress-google-maps-for-wordpress/mappress.php:835
+msgid "what's my country code?"
+msgstr "mikä on maatunnukseni?"
+
+#: C:\D\Blogit\plugins\mappress-google-maps-for-wordpress/mappress.php:836
+msgid "supported languages"
+msgstr "tuetut kielet"
+
+#: C:\D\Blogit\plugins\mappress-google-maps-for-wordpress/mappress.php:841
+msgid "MapPress Options"
+msgstr "MapPress Asetukset"
+
+#: C:\D\Blogit\plugins\mappress-google-maps-for-wordpress/mappress.php:856
+msgid "Google Maps API Key"
+msgstr "Google Maps API-avain"
+
+#: C:\D\Blogit\plugins\mappress-google-maps-for-wordpress/mappress.php:869
+msgid "Optional Settings"
+msgstr "Lisäasetukset"
+
+#: C:\D\Blogit\plugins\mappress-google-maps-for-wordpress/mappress.php:872
+msgid "Address format"
+msgstr "Osoitteen muoto"
+
+#: C:\D\Blogit\plugins\mappress-google-maps-for-wordpress/mappress.php:873
+msgid "Exactly as entered"
+msgstr "Täsmällinen"
+
+#: C:\D\Blogit\plugins\mappress-google-maps-for-wordpress/mappress.php:873
+msgid "Corrected address"
+msgstr "Korjattu"
+
+#: C:\D\Blogit\plugins\mappress-google-maps-for-wordpress/mappress.php:875
+msgid "Country code for searches"
+msgstr "Hakujen maatunnus"
+
+#: C:\D\Blogit\plugins\mappress-google-maps-for-wordpress/mappress.php:875
+msgid "Enter a country code to use as a default when searching for an address."
+msgstr "Anna maatunnus, jota käytetään oletusarvona osoitteita haettaessa."
+
+#: C:\D\Blogit\plugins\mappress-google-maps-for-wordpress/mappress.php:876
+msgid "Force map language"
+msgstr "Pakkokieli"
+
+#: C:\D\Blogit\plugins\mappress-google-maps-for-wordpress/mappress.php:876
+msgid "Force Google to use a specific language for map controls."
+msgstr "Pakota Google käyttämään tiettyä kieltä kartan säätimissä."
+
+#: C:\D\Blogit\plugins\mappress-google-maps-for-wordpress/mappress.php:877
+msgid "Directions"
+msgstr "Ajo-ohjeet"
+
+#: C:\D\Blogit\plugins\mappress-google-maps-for-wordpress/mappress.php:877
+msgid "Check to enable directions to/from map markers"
+msgstr "Valitse, jos haluat ottaa käyttöön ajo-ohjeiden haun merkitsimeen"
+
+#: C:\D\Blogit\plugins\mappress-google-maps-for-wordpress/mappress.php:877
+msgid "Big map controls"
+msgstr "Kaikki valitsimet"
+
+#: C:\D\Blogit\plugins\mappress-google-maps-for-wordpress/mappress.php:877
+msgid "Check to show large map controls; uncheck for a small zoom control instead"
+msgstr "Valitse tämä, jos haluat näyttää kaikki kartan valitsimet (tyhjä = vain pieni zoomaustyökalu)"
+
+#: C:\D\Blogit\plugins\mappress-google-maps-for-wordpress/mappress.php:878
+msgid "Map types button"
+msgstr "Karttatyyppipainike"
+
+#: C:\D\Blogit\plugins\mappress-google-maps-for-wordpress/mappress.php:878
+msgid "Check to enable the \"map types\" button on the map"
+msgstr "Valitse tämä, jos haluat kartalle Karttatyypit-painikkeen."
+
+#: C:\D\Blogit\plugins\mappress-google-maps-for-wordpress/mappress.php:879
+msgid "Initial map type"
+msgstr "Oletuskarttatyyppi"
+
+#: C:\D\Blogit\plugins\mappress-google-maps-for-wordpress/mappress.php:881
+msgid "Choose the map type to use when the map is first displayed"
+msgstr "Valitse karttatyyppi, jota käytetään karttaa avattaessa."
+
+#: C:\D\Blogit\plugins\mappress-google-maps-for-wordpress/mappress.php:884
+msgid "Initial marker"
+msgstr "Oletusmerkitsin"
+
+#: C:\D\Blogit\plugins\mappress-google-maps-for-wordpress/mappress.php:884
+msgid "Check to open the first marker when the map is displayed."
+msgstr "Valitse tämä, jos haluat avata ensimmäisen merkitsimen karttaa avattaessa."
+
+#: C:\D\Blogit\plugins\mappress-google-maps-for-wordpress/mappress.php:885
+msgid "GoogleBar"
+msgstr "GoogleBar"
+
+#: C:\D\Blogit\plugins\mappress-google-maps-for-wordpress/mappress.php:885
+msgid "Check to show the \"GoogleBar\" search box for local business listings."
+msgstr "Valitse tämä, jos haluat näyttää kartalla GoogleBar-hakupalkin."
+
+#: C:\D\Blogit\plugins\mappress-google-maps-for-wordpress/mappress.php:887
+msgid "Scrollwheel zoom"
+msgstr "Rullazoom"
+
+#: C:\D\Blogit\plugins\mappress-google-maps-for-wordpress/mappress.php:887
+msgid "Enable zooming with the mouse scroll wheel."
+msgstr "Ota käyttöön loitonnus ja lähennys hiiren rullan avulla."
+
+#: C:\D\Blogit\plugins\mappress-google-maps-for-wordpress/mappress.php:896
+msgid "Default map icon: "
+msgstr "Kartan oletuskuvake: "
+
+#: C:\D\Blogit\plugins\mappress-google-maps-for-wordpress/mappress.php:900
+msgid "(click the icon to choose)"
+msgstr "(valitse klikkaamalla kuvaketta)"
+
+#: C:\D\Blogit\plugins\mappress-google-maps-for-wordpress/mappress.php:923
+msgid "Save Changes"
+msgstr "Tallenna muutokset"
+
+#~ msgid ""
+#~ "The starting or ending address could not be found.  Please check that the "
+#~ "address is correct and completely entered."
+#~ msgstr ""
+#~ "Lähtöpaikan tai määränpään osoitetta ei löydy. Ole hyvä ja tarkista, että "
+#~ "osoite on oikea ja kirjoitettu oikein."
+#~ msgid "Map options "
+#~ msgstr "Kartan asetukset"
+#~ msgid "(leave blank for default)"
+#~ msgstr "(tyhjä = oletusarvo)"
+#~ msgid "Width "
+#~ msgstr "Leveys"
+#~ msgid "Height "
+#~ msgstr "Korkeus"
+#~ msgid "Zoom "
+#~ msgstr "Zoom"
+#~ msgid "Add address"
+#~ msgstr "Lisää osoite"
+#~ msgid "Automatic"
+#~ msgstr "Automaattinen"
+#~ msgid "1 - zoomed out"
+#~ msgstr "1 - kaukonäkymä"
+#~ msgid "20 - zoomed in"
+#~ msgstr "20 - lähinäkymä"
+#~ msgid "Map defaults"
+#~ msgstr "Kartan oletusarvot"
+#~ msgid "Map width"
+#~ msgstr "Kartan leveys"
+#~ msgid "Enter a value in pixels (default is 400)"
+#~ msgstr "Anna arvo pikseleinä (oletus 400)"
+#~ msgid "Map height"
+#~ msgstr "Kartan korkeus"
+#~ msgid "Enter a value in pixels (default is 300)"
+#~ msgstr "Anna arvo pikseleinä (oletus 300)"
+#~ msgid "Advanced Settings"
+#~ msgstr "Lisäasetukset"
+#~ msgid "MapPress link"
+#~ msgstr "MapPress-linkki"
+#~ msgid "Enable the \"powered by\" link."
+#~ msgstr "Ota käyttöön \"powered by\" -linkki."
+#~ msgid ""
+#~ "MapPress has changed with this version.  You must re-enter your maps.  "
+#~ "Please see the note on the %1$sMapPress options screen%2$s"
+#~ msgstr ""
+#~ "MapPress on muuttunut. Sinun täytyy luoda karttasi uudelleen. Ole hyvä ja "
+#~ "katso huomautus %1$sMapPress Asetusnäkymästä%2$s"
+#~ msgid "Zoom (1-20) "
+#~ msgstr "Zoom (1-20) "
+#~ msgid "Caption"
+#~ msgstr "Otsikko"
+#~ msgid "Clear form"
+#~ msgstr "Tyhjennä lomake"
+#~ msgid "custom field"
+#~ msgstr "lisäkenttä"
+#~ msgid "shortcodes"
+#~ msgstr "lyhytkoodit"
+#~ msgid "Map zoom (1-20)"
+#~ msgstr "Kartan zoomaus (1-20)"
+#~ msgid "1=fully zoomed out, 20=fully zoomed in (default is 15)"
+#~ msgstr "1=laajin näkymä, 20=lähin näkymä (oletus on 15)"
+#~ msgid "Icons"
+#~ msgstr "Kuvakkeet"
+

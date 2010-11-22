@@ -1,0 +1,439 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+   "http://www.w3.org/TR/html4/loose.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<title>Sweetspot Dash Build</title>
+	
+		<meta http-equiv="content-type" content="text/html;charset=utf-8" />
+	
+		<link rel="stylesheet" type="text/css" href="css/reset.css" media="screen" />
+		<link rel="stylesheet" type="text/css" href="css/grid.css" media="screen" />
+		<link rel="stylesheet" type="text/css" href="css/jbase.css" media="screen" /> 
+		<link rel="stylesheet" type="text/css" href="css/stickyfooter.css" media="screen" /> 	
+		<link rel="stylesheet" type="text/css" href="css/style.css" media="screen" />  
+		
+			<script type="text/javascript" src="js/jquery-1.3.2.min.js"></script> 
+			<script type="text/javascript" src="js/jquery.easing.1.3.js"></script> 
+			<script type="text/javascript" src="js/slider.js"></script> 
+			<script type="text/javascript" src="js/scrollto.js"></script> 
+			<script type="text/javascript" src="js/jquery.validate.js"></script>
+			
+			<script type="text/javascript" src="js/custom-forms.js"></script>
+			
+			<script type="text/javascript">
+				$(document).ready(function() {
+					$("#flatmateDetails").validate();
+				});
+			</script>
+
+	
+	</head>
+	<body>
+		<div id="wrap" class="jbasewrap">
+			<div id="header">
+				<h1 class="padtop left"><a class="grid2col imgreplace" href="#">Sweetspot</a></h1>
+				<ul>
+					<li><a class="orange" rel="self" href="#guarantors">Guarantors</a></li>
+					<li><a class="pink" rel="self" href="#housemates">Housemates</a></li>
+					<li><a class="green" rel="self" href="#progress">Progress</a></li>
+					<li><a class="blue" rel="self" href="#deposit">Pay Deposit</a></li>
+				</ul>
+				<h3 class="grid6col left marginleft">Hi There, James!</h3>
+				<p class="grid6col left marginleft">Welcome to your SweetSpot student dashboard. From here you can see your viewings, check your moving-in progress, and later it will provide house documents, access to smartmeter systems, our services, and more.</p>				
+			</div>
+			<div id="modules">
+				<div class="module">
+					<h3 class="pink">Future Viewings</h3>
+					<p class="grid3col left">
+						All of your upcoming Sweetspot property viewings. Click a house to visit its property page.
+					</p>
+					<ul class="noBullets noMargin left houselist">
+						<li class="grid3col marginleft">
+							<h6><strong>34 Kenilworth Road, <span class="lining">EX4 2</span></strong></h6>
+							<a href="#"><img src="images/house.jpg"/></a>
+							<span>At 14:30 on Friday October 21st</span>
+						</li>
+						<li class="grid3col marginleft">
+							<h6><strong>34 Kenilworth Road, <span class="lining">EX4 2</span></strong></h6>
+							<a href="#"><img src="images/house.jpg"/></a>
+							<span>At 14:30 on Friday October 21st</span>
+						</li>
+						<li class="grid3col marginleft">
+							<h6><strong>34 Kenilworth Road, <span class="lining">EX4 2</span></strong></h6>
+							<a href="#"><img src="images/house.jpg"/></a>
+							<span>At 14:30 on Friday October 21st</span>
+						</li>
+					</ul>
+				</div>
+				<div class="module">
+					<a href="#top" rel="self" class="right topLink">top ^</a>
+					<h3 class="orange">Houses Viewed</h3>
+					<p class="grid3col left">
+						All of the Sweetspot homes you've viewed are listed here. Click the button below a property to secure a property with a holding deposit via Paypal.
+					</p>
+					<ul class="noBullets noMargin left houselist">
+						<li class="grid3col marginleft">
+							<h6><strong>34 Kenilworth Road, <span class="lining">EX4 2</span></strong></h6>
+							<a href="#"><img src="images/house.jpg"/></a>
+							<span>At 14:30 on Friday October 21st</span>
+							<br />
+							<a class="pay" href="#">Pay Deposit</a>
+						</li>
+						<li class="grid3col marginleft">
+							<h6><strong>34 Kenilworth Road, <span class="lining">EX4 2</span></strong></h6>
+							<a href="#"><img src="images/house.jpg"/></a>
+							<span>At 14:30 on Friday October 21st</span>
+							<br />
+							<a class="pay" href="#">Pay Deposit</a>
+						</li>
+						<li class="grid3col marginleft">
+							<h6><strong>34 Kenilworth Road, <span class="lining">EX4 2</span></strong></h6>
+							<a href="#"><img src="images/house.jpg"/></a>
+							<span>At 14:30 on Friday October 21st</span>
+							<br />
+							<a class="pay" href="#">Pay Deposit</a>
+						</li>
+					</ul>
+				</div>
+				<div class="module">
+					<a href="#top" rel="self" class="right topLink">top ^</a>
+					<a id="progress"></a><h3 class="green">Moving-in Progress</h3>
+					<div>
+						<div id="progressPanel" class="grid6col left">
+						<p>First of all you have to place a holding deposit to indicate your interest in the property and hold it for a week.</p>
+						</div>
+						<div class="stages left grid6col">
+							<div class="stage current"><span class="number">1</span>Pay Holding Deposit</div>
+							<div class="stage"><span class="number">2</span>Pay Security Deposit</div>
+							<div class="stage"><span class="number">3</span>Sign AST</div>
+							<div class="stage"><span class="number">4</span>Move in!</div>
+						</div>
+					</div>
+				</div>
+				<div class="module">
+					<a href="#top" rel="self" class="right topLink">top ^</a>
+					<a id="housemates"></a><h3 class="blue">Your Housemates</h3>
+					<p class="grid3col left">
+						Who are you moving in with? Enter your future flatmates' details here so we can get in touch. 
+					</p>
+					<div class="grid9col right marginleft">
+						<form id="flatmateDetails">
+							<div class="flatmateDetails">
+								<h5>Flatmate #1:</h5>
+								<div class="flatmateForm">
+									<div class="grid3col left names">
+										<div class="left">
+											<label for="firstName">First</label>
+											<input class="required firstName" type="text" name="firstname" id="firstName">
+											<!-- <label for="name" generated="true" class="error">This field is required.</label> -->
+										</div>
+										<div class="left">
+											<label for="lastName">Last</label>
+											<input class="required lastName" type="text" name="lastname" id="lastName">
+											<!-- <label for="name" generated="true" class="error">This field is required.</label> -->
+										</div>
+									</div>
+									
+									<div class="grid2col left marginleft postcode">
+										<label for="postCode">Postcode</label>
+										<input class="required postCode" type="text" name="postcode" id="postCode">
+										<input class="lookUp" type="button" name="lookup" id="lookUp" value="lookup">
+										<select class="required address" name="address" id="address">
+											<option>1</option>
+											<option>2</option>
+										</select>
+										<!-- <label for="name" generated="true" class="error">This field is required.</label> -->
+										<label for="useYourAddress" class="useYourAddress" id="useYourAddress">Tick here to use your address</label>
+										<input type="checkbox" class="useYourAddress" id="useYourAddress">
+										
+									</div>
+									
+									<div class="grid2col left marginleft">
+										<label for="email">Email</label>
+										<input class="required email" type="text" name="email" id="email">
+										<!-- <label for="name" generated="true" class="error">This field is required.</label> -->
+									</div>
+									
+									<div class="grid2col left marginleft">
+										<label for="phone">Phone</label>
+										<input class="required phone" type="text" name="phone" id="phone">
+										<!-- <label for="name" generated="true" class="error">This field is required.</label> -->
+									</div>
+								</div>
+							</div>
+							<div class="flatmateDetails">
+								<h5>Flatmate #2:</h5>
+								<div class="flatmateForm">
+									<div class="grid3col left names">
+										<div class="left">
+											<label for="firstName">First</label>
+											<input class="required firstName" type="text" name="firstname" id="firstName">
+											<!-- <label for="name" generated="true" class="error">This field is required.</label> -->
+										</div>
+										<div class="left">
+											<label for="lastName">Last</label>
+											<input class="required lastName" type="text" name="lastname" id="lastName">
+											<!-- <label for="name" generated="true" class="error">This field is required.</label> -->
+										</div>
+									</div>
+									
+									<div class="grid2col left marginleft postcode">
+										<label for="postCode">Postcode</label>
+										<input class="required postCode" type="text" name="postcode" id="postCode">
+										<input class="lookUp" type="button" name="lookup" id="lookUp" value="lookup">
+										<select class="required address" name="address" id="address"></select>
+										<!-- <label for="name" generated="true" class="error">This field is required.</label> -->
+										<label for="useYourAddress" class="useYourAddress" id="useYourAddress">Tick here to use your address</label>
+										<input type="checkbox" class="useYourAddress" id="useYourAddress">
+										
+									</div>
+									
+									<div class="grid2col left marginleft">
+										<label for="email">Email</label>
+										<input class="required email" type="text" name="email" id="email">
+										<!-- <label for="name" generated="true" class="error">This field is required.</label> -->
+									</div>
+									
+									<div class="grid2col left marginleft">
+										<label for="phone">Phone</label>
+										<input class="required phone" type="text" name="phone" id="phone">
+										<!-- <label for="name" generated="true" class="error">This field is required.</label> -->
+									</div>
+								</div>
+							</div>
+							<div class="flatmateDetails">
+								<h5>Flatmate #3:</h5>
+								<div class="flatmateForm">
+									<div class="grid3col left names">
+										<div class="left">
+											<label for="firstName">First</label>
+											<input class="required firstName" type="text" name="firstname" id="firstName">
+											<!-- <label for="name" generated="true" class="error">This field is required.</label> -->
+										</div>
+										<div class="left">
+											<label for="lastName">Last</label>
+											<input class="required lastName" type="text" name="lastname" id="lastName">
+											<!-- <label for="name" generated="true" class="error">This field is required.</label> -->
+										</div>
+									</div>
+									
+									<div class="grid2col left marginleft postcode">
+										<label for="postCode">Postcode</label>
+										<input class="required postCode" type="text" name="postcode" id="postCode">
+										<input class="lookUp" type="button" name="lookup" id="lookUp" value="lookup">
+										<select class="required address" name="address" id="address"></select>
+										<!-- <label for="name" generated="true" class="error">This field is required.</label> -->
+										<label for="useYourAddress" class="useYourAddress" id="useYourAddress">Tick here to use your address</label>
+										<input type="checkbox" class="useYourAddress" id="useYourAddress">
+										
+									</div>
+									
+									<div class="grid2col left marginleft">
+										<label for="email">Email</label>
+										<input class="required email" type="text" name="email" id="email">
+										<!-- <label for="name" generated="true" class="error">This field is required.</label> -->
+									</div>
+									
+									<div class="grid2col left marginleft">
+										<label for="phone">Phone</label>
+										<input class="required phone" type="text" name="phone" id="phone">
+										<!-- <label for="name" generated="true" class="error">This field is required.</label> -->
+									</div>
+								</div>
+							</div>
+							<div class="flatmateDetails">
+								<h5>Flatmate #4:</h5>
+								<div class="flatmateForm">
+									<div class="grid3col left names">
+										<div class="left">
+											<label for="firstName">First</label>
+											<input class="required firstName" type="text" name="firstname" id="firstName">
+											<!-- <label for="name" generated="true" class="error">This field is required.</label> -->
+										</div>
+										<div class="left">
+											<label for="lastName">Last</label>
+											<input class="required lastName" type="text" name="lastname" id="lastName">
+											<!-- <label for="name" generated="true" class="error">This field is required.</label> -->
+										</div>
+									</div>
+									
+									<div class="grid2col left marginleft postcode">
+										<label for="postCode">Postcode</label>
+										<input class="required postCode" type="text" name="postcode" id="postCode">
+										<input class="lookUp" type="button" name="lookup" id="lookUp" value="lookup">
+										<select class="required address" name="address" id="address"></select>
+										<!-- <label for="name" generated="true" class="error">This field is required.</label> -->
+										<label for="useYourAddress" class="useYourAddress" id="useYourAddress">Tick here to use your address</label>
+										<input type="checkbox" class="useYourAddress" id="useYourAddress">
+										
+									</div>
+									
+									<div class="grid2col left marginleft">
+										<label for="email">Email</label>
+										<input class="required email" type="text" name="email" id="email">
+										<!-- <label for="name" generated="true" class="error">This field is required.</label> -->
+									</div>
+									
+									<div class="grid2col left marginleft">
+										<label for="phone">Phone</label>
+										<input class="required phone" type="text" name="phone" id="phone">
+										<!-- <label for="name" generated="true" class="error">This field is required.</label> -->
+									</div>
+								</div>
+							</div>
+							<input class="right submitDetails" type="submit" value="Send Flatmate Details">
+						</form>
+					</div>
+				</div>
+				<div class="module securityPayment">
+					<a id="deposit"></a><h3 class="orange">Pay Your Security Deposit and 1<sup>st</sup> Month Rent</h3>
+					<p class="grid3col left">
+						Your security deposit is equal to 6 weeks rent, and will cover damage to the property. All of your flatmates and yourself need to have paid your security deposit and first month's rent in advance, in cleared funds, before you can move in. It can take a couple of days for your payment to clear, but once it has your status will be updated.<br /> <a href="#">What will happen to my deposit?</a>
+					</p>
+					<div class="grid9col right">
+						<div class="grid5col left">
+							<h5>Payment Details</h5>
+							<table id="payment" class="grid5col left" border="0" cellspacing="0" cellpadding="0">
+								<tr>	
+						      		<th class="grid4col">Item</th>
+						        	<th class="grid1col">Sum</th>
+						      	</tr>
+						      	<tr>
+						      		<td>Security Deposit (6 Weeks Rent)</td>
+						        	<td>£660</td>
+						      	</tr>
+						      	<tr>
+						      		<td>1 month rent in advance</td>
+						        	<td>£476.68</td>
+						      	</tr>
+						      	<tr class="reduction">
+						      		<td>- holding deposit</td>
+						        	<td>- £220</td>
+						      	</tr>
+						      	<tr class="total">
+						      		<td class="alignright">Total:</td>
+						        	<td class="figure">£816.68</td>
+						      	</tr>
+							</table>
+							<a class="pay" href="#">Pay Security Deposit &amp; Rent</a>
+						</div>
+						<div class="grid4col right">
+							<h5>Flatmates Status</h5>
+							<table id="flatmateStatus" class="grid4col right" border="0" cellspacing="0" cellpadding="0">
+							<tr>	
+					      		<th class="grid3col">Flatmate</th>
+					        	<th class="grid1col">Status</th>
+					      	</tr>
+						      	<tr class="unpaid">
+						      		<td>Flatmate Name</td>
+						        	<td>Unpaid</td>
+						      	</tr>
+						      	<tr class="paid">
+						      		<td>Flatmate Name</td>
+						        	<td>Paid</td>
+						      	</tr>
+						      	<tr class="paid">
+						      		<td>Flatmate Name</td>
+						        	<td>Paid</td>
+						      	</tr>
+						      	<tr class="unpaid">
+						      		<td>Flatmate Name</td>
+						        	<td>Unpaid</td>
+						      	</tr>
+						      	<tr class="paid">
+						      		<td>Flatmate Name</td>
+						        	<td>Paid</td>
+						      	</tr>
+							</table>
+						</div>
+						
+					
+					</div>
+				</div>
+				<div class="module">
+					<a href="#top" rel="self" class="right topLink">top ^</a>
+					<a id="guarantors"></a><h3 class="pink">Your Guarantors</h3>
+					<p class="grid3col left">
+						Please enter your guarantor's details here, so we can contact them for references and credit checks.
+					</p>
+					<div class="grid9col right marginleft">
+						<form id="guarantorDetails">
+							<div class="guarantorDetails">
+								<h5>Your Guarantor:</h5>
+								<div class="grid3col left names">
+									<div class="left">
+										<label for="firstName">First</label>
+										<input class="required firstName" type="text" name="firstname" id="firstName">
+										<!-- <label for="name" generated="true" class="error">This field is required.</label> -->
+									</div>
+									<div class="left">
+										<label for="lastName">Last</label>
+										<input class="required lastName" type="text" name="lastname" id="lastName">
+										<!-- <label for="name" generated="true" class="error">This field is required.</label> -->
+									</div>
+								</div>
+								
+								<div class="grid2col left marginleft postcode">
+									<label for="postCode">Postcode</label>
+									<input class="required postCode" type="text" name="postcode" id="postCode">
+									<input class="lookUp" type="button" name="lookup" id="lookUp" value="lookup">
+									<select class="required address" name="address" id="address">
+										<option>1</option>
+										<option>2</option>
+									</select>
+									<!-- <label for="name" generated="true" class="error">This field is required.</label> -->
+									<label for="useYourAddress" class="useYourAddress" id="useYourAddress">Tick here to use your address</label>
+									<input type="checkbox" class="useYourAddress" id="useYourAddress">
+									
+								</div>
+								
+								<div class="grid2col left marginleft">
+									<label for="email">Email</label>
+									<input class="required email" type="text" name="email" id="email">
+									<!-- <label for="name" generated="true" class="error">This field is required.</label> -->
+								</div>
+								
+								<div class="grid2col left marginleft">
+									<label for="phone">Phone</label>
+									<input class="required phone" type="text" name="phone" id="phone">
+									<!-- <label for="name" generated="true" class="error">This field is required.</label> -->
+								</div>
+							</div>
+							<input class="right submitDetails" type="submit" value="Send Guarantor Details">
+						</form>
+					</div>
+				</div>
+			</div>
+			
+			<div class="push"></div>
+		</div>
+		<div class="footer">
+			<div class="jbasewrap">
+				 <ul class="grid3col left noMargin">
+					<li><a href="#">Home</a></li>
+					<li><a href="#">Organiser</a></li>
+					<li><a href="#">Progress</a></li>
+					<li><a href="#">Contact</a></li>
+				 </ul>
+				 <ul class="grid3col left marginleft">
+					<li><a href="#">Home</a></li>
+					<li><a href="#">Organiser</a></li>
+					<li><a href="#">Progress</a></li>
+					<li><a href="#">Contact</a></li>
+				 </ul>    
+				 <ul class="grid3col left marginleft">
+					<li><a href="#">Home</a></li>
+					<li><a href="#">Organiser</a></li>
+					<li><a href="#">Progress</a></li>
+					<li><a href="#">Contact</a></li>
+				 </ul>    
+				 <ul class="grid3col left marginleft">
+					<li><a href="#">Home</a></li>
+					<li><a href="#">Organiser</a></li>
+					<li><a href="#">Progress</a></li>
+					<li><a href="#">Contact</a></li>
+				 </ul>             
+			</div>
+		</div>
+	</body>
+</html>

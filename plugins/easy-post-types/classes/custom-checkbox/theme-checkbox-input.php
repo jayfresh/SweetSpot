@@ -1,0 +1,1 @@
+<span class="label"><?php echo $values['name']; ?></span><input type="checkbox" name="<?php echo $values['field_name']; ?>" <?php echo $values['value']==true?' checked ':''; ?>  />

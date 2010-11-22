@@ -1,0 +1,97 @@
+/*
+Theme Name: Property Dash 
+Theme URI: http://wordpress.org/
+Description: Not a complete theme, just the minimal dashboard 
+Author: Joshua Bradley
+Version: 0.1
+Tags: property, sweetspot
+*/
+
+
+
+#wrap {
+	width: 940px;
+}
+
+hr {
+	width: 100%;
+	background-color: #000;
+}
+
+.bordertop {
+	border-top: 1px #000 solid;
+}
+
+
+.peopleList li {
+	border: solid #d4d4d4 1px;
+	-moz-border-radius: 5px; /* FF1+ */
+	-webkit-border-radius: 5px; /* Saf3-4 */
+	border-radius: 5px; /* Opera 10.5, IE 9, Saf5, Chrome */
+	padding: 5px;
+	margin-bottom: 2px;
+	background-color: #f7f7f7;
+}
+
+
+.bordertopgrey {
+	border-top: 1px solid #e5e5e5;
+}
+
+ul.toDo li {
+
+}
+
+.dashimg {
+	width: 140px;
+	height: 100px;
+}
+
+#dash li.property {
+	border-top: 1px silver solid;
+	margin-top: 10px;
+	padding-top: 10px;
+} 
+
+
+/*#dash li ul li {
+	border-top: none;
+	padding-top: 0;
+	margin-top: 0;
+} */
+
+
+
+
+/* BUTTONS by Zurb (renamed classes to reduce gayness)*/
+.shiny{
+	background: #222 url(/images/alert-overlay.png) repeat-x;
+	display: inline-block;
+	padding: 5px 10px 6px;
+	color: #fff;
+	text-decoration: none;
+	line-height: 1;
+	-moz-border-radius: 15px;
+	-webkit-border-radius: 15px;
+	/* -moz-box-shadow: 0 1px 1px #999;
+	-webkit-box-shadow: 0 1px 1px #999; 
+	text-shadow: 0 -1px 1px #999;
+	border-bottom: 1px solid #222; */
+	position: relative;
+	font-weight: bold;
+	letter-spacing: 0.1em; 
+	cursor: pointer;	
+}
+
+
+.round.button { 
+	background-image: url(../images/36px-blended.png); 
+	padding: 4px 14px 6px; 
+	/* border: 1px solid rgba(0,0,0,.25); 
+	border-bottom-color: rgba(0,0,0,.35); */
+	-webkit-border-radius: 15px; 
+	-moz-border-radius: 15px; 
+}
+
+.orange.shiny, .orange.shiny:visited		{ background-color: #ff5c00; }
+.orange.shiny:hover							{ background-color: #d45500; }

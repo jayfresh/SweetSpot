@@ -1,0 +1,6 @@
+.titleContainer {}
+.titleContainer #sweetspotIcon {
+	left:86px;
+	position:absolute;
+	top:76px;
+}

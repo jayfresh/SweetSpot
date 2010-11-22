@@ -1,0 +1,881 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: CCT\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2010-06-18 16:03-0500\n"
+"PO-Revision-Date: 2010-06-18 16:04-0500\n"
+"Last-Translator: New SIgnature\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-SearchPath-0: Z:\\emilio\\wordpress3\\wp-content\\plugins\\wordpressplugin\n"
+
+#: Z:\emilio\wordpress3\wp-content\plugins\wordpressplugin/custom-type.php:57
+msgid "Label"
+msgstr "Etichetta"
+
+#: Z:\emilio\wordpress3\wp-content\plugins\wordpressplugin/custom-type.php:58
+msgid "Singular Label"
+msgstr "Etichetta Singolare"
+
+#: Z:\emilio\wordpress3\wp-content\plugins\wordpressplugin/custom-type.php:59
+msgid "Public"
+msgstr "Pubblico"
+
+#: Z:\emilio\wordpress3\wp-content\plugins\wordpressplugin/custom-type.php:61
+msgid "Show UI"
+msgstr "Mostra "
+
+#: Z:\emilio\wordpress3\wp-content\plugins\wordpressplugin/custom-type.php:62
+msgid "Rewrite"
+msgstr "Riscrivi URL"
+
+#: Z:\emilio\wordpress3\wp-content\plugins\wordpressplugin/custom-type.php:63
+msgid "Query Var"
+msgstr "Query Var"
+
+#: Z:\emilio\wordpress3\wp-content\plugins\wordpressplugin/custom-type.php:64
+msgid "Hierarchical"
+msgstr "Gerarchico"
+
+#: Z:\emilio\wordpress3\wp-content\plugins\wordpressplugin/custom-type.php:65
+msgid "Capability Type"
+msgstr "Funzionalita&#225;"
+
+#: Z:\emilio\wordpress3\wp-content\plugins\wordpressplugin/custom-type.php:66
+msgid "Supports"
+msgstr "Supporta"
+
+#: Z:\emilio\wordpress3\wp-content\plugins\wordpressplugin/custom-type.php:70
+#: Z:\emilio\wordpress3\wp-content\plugins\wordpressplugin/boxes/category-sets.php:11
+#: Z:\emilio\wordpress3\wp-content\plugins\wordpressplugin/boxes/category-sets.php:25
+#: Z:\emilio\wordpress3\wp-content\plugins\wordpressplugin/boxes/fields.php:13
+#: Z:\emilio\wordpress3\wp-content\plugins\wordpressplugin/boxes/fields.php:25
+msgid "Name"
+msgstr "Nome"
+
+#: Z:\emilio\wordpress3\wp-content\plugins\wordpressplugin/custom-type.php:71
+msgid "Singular Name"
+msgstr "Nome Singolare"
+
+#: Z:\emilio\wordpress3\wp-content\plugins\wordpressplugin/custom-type.php:72
+msgid "Add New"
+msgstr "Aggiungi Nuovo"
+
+#: Z:\emilio\wordpress3\wp-content\plugins\wordpressplugin/custom-type.php:73
+msgid "Add New Post"
+msgstr "Aggiungi Nuovo Articolo"
+
+#: Z:\emilio\wordpress3\wp-content\plugins\wordpressplugin/custom-type.php:73
+msgid "Add New Page"
+msgstr "Aggiungi nuova Pagina"
+
+#: Z:\emilio\wordpress3\wp-content\plugins\wordpressplugin/custom-type.php:73
+msgid "Add new Item"
+msgstr "Aggiungi nuovo Oggetto"
+
+#: Z:\emilio\wordpress3\wp-content\plugins\wordpressplugin/custom-type.php:74
+msgid "Edit Post"
+msgstr "Modifica"
+
+#: Z:\emilio\wordpress3\wp-content\plugins\wordpressplugin/custom-type.php:74
+msgid "Edit Page"
+msgstr "Modifica pagina"
+
+#: Z:\emilio\wordpress3\wp-content\plugins\wordpressplugin/custom-type.php:74
+msgid "Edit Item"
+msgstr "Modifica oggetto"
+
+#: Z:\emilio\wordpress3\wp-content\plugins\wordpressplugin/custom-type.php:75
+#: Z:\emilio\wordpress3\wp-content\plugins\wordpressplugin/editcontent.php:3
+#: Z:\emilio\wordpress3\wp-content\plugins\wordpressplugin/main.php:38
+#: Z:\emilio\wordpress3\wp-content\plugins\wordpressplugin/boxes/category-sets.php:14
+#: Z:\emilio\wordpress3\wp-content\plugins\wordpressplugin/boxes/category-sets.php:28
+#: Z:\emilio\wordpress3\wp-content\plugins\wordpressplugin/boxes/field-rows.php:22
+msgid "Edit"
+msgstr "Edita"
+
+#: Z:\emilio\wordpress3\wp-content\plugins\wordpressplugin/custom-type.php:76
+msgid "New Post"
+msgstr "Nuovo Articolo"
+
+#: Z:\emilio\wordpress3\wp-content\plugins\wordpressplugin/custom-type.php:76
+msgid "New Page"
+msgstr "Nuova Pagina"
+
+#: Z:\emilio\wordpress3\wp-content\plugins\wordpressplugin/custom-type.php:76
+msgid "New Item"
+msgstr "Nuovo Oggetto"
+
+#: Z:\emilio\wordpress3\wp-content\plugins\wordpressplugin/custom-type.php:77
+#: Z:\emilio\wordpress3\wp-content\plugins\wordpressplugin/custom-type.php:81
+msgid "View Post"
+msgstr "Mostra Articolo"
+
+#: Z:\emilio\wordpress3\wp-content\plugins\wordpressplugin/custom-type.php:77
+#: Z:\emilio\wordpress3\wp-content\plugins\wordpressplugin/custom-type.php:81
+msgid "View Page"
+msgstr "Mostra Pagina"
+
+#: Z:\emilio\wordpress3\wp-content\plugins\wordpressplugin/custom-type.php:77
+msgid "View Item"
+msgstr "Mostra Oggetto"
+
+#: Z:\emilio\wordpress3\wp-content\plugins\wordpressplugin/custom-type.php:78
+msgid "Search Posts"
+msgstr "Cerca Articoli"
+
+#: Z:\emilio\wordpress3\wp-content\plugins\wordpressplugin/custom-type.php:78
+msgid "Search Pages"
+msgstr "Cerca Pagine"
+
+#: Z:\emilio\wordpress3\wp-content\plugins\wordpressplugin/custom-type.php:78
+msgid "Search Items"
+msgstr "Cerca Oggetti"
+
+#: Z:\emilio\wordpress3\wp-content\plugins\wordpressplugin/custom-type.php:79
+msgid "No posts found"
+msgstr "Nessun Articolo trovato"
+
+#: Z:\emilio\wordpress3\wp-content\plugins\wordpressplugin/custom-type.php:79
+msgid "No pages found"
+msgstr "Nessuna Pagina trovata"
+
+#: Z:\emilio\wordpress3\wp-content\plugins\wordpressplugin/custom-type.php:79
+msgid "Not Found"
+msgstr "Non trovato"
+
+#: Z:\emilio\wordpress3\wp-content\plugins\wordpressplugin/custom-type.php:80
+msgid "No posts found in Trash"
+msgstr "Nessun articolo nel cestino"
+
+#: Z:\emilio\wordpress3\wp-content\plugins\wordpressplugin/custom-type.php:80
+msgid "No pages found in Trash"
+msgstr "Nessuna pagina nel cestino"
+
+#: Z:\emilio\wordpress3\wp-content\plugins\wordpressplugin/custom-type.php:80
+msgid "Not Found in Trash"
+msgstr "Non trovato nel cestino"
+
+#: Z:\emilio\wordpress3\wp-content\plugins\wordpressplugin/custom-type.php:81
+msgid "View"
+msgstr "Mostra"
+
+#: Z:\emilio\wordpress3\wp-content\plugins\wordpressplugin/custom-type.php:82
+msgid "Parent Page:"
+msgstr "Pagina Superiore:"
+
+#: Z:\emilio\wordpress3\wp-content\plugins\wordpressplugin/custom-type.php:82
+msgid "Parent Item"
+msgstr "Oggetto Superiore:"
+
+#: Z:\emilio\wordpress3\wp-content\plugins\wordpressplugin/custom-type.php:151
+msgid "General Settings"
+msgstr "Opzioni Generali"
+
+#: Z:\emilio\wordpress3\wp-content\plugins\wordpressplugin/custom-type.php:152
+msgid "Edit Fields"
+msgstr "Modifica campi"
+
+#: Z:\emilio\wordpress3\wp-content\plugins\wordpressplugin/custom-type.php:153
+#: Z:\emilio\wordpress3\wp-content\plugins\wordpressplugin/custom-type.php:1406
+#: Z:\emilio\wordpress3\wp-content\plugins\wordpressplugin/boxes/utility.php:4
+msgid "Utilities"
+msgstr "Utilit&#225;"
+
+#: Z:\emilio\wordpress3\wp-content\plugins\wordpressplugin/custom-type.php:168
+msgid "Help for the custom post types settings page"
+msgstr "Guda per la pagina delle opzioni"
+
+#: Z:\emilio\wordpress3\wp-content\plugins\wordpressplugin/custom-type.php:174
+#: Z:\emilio\wordpress3\wp-content\plugins\wordpressplugin/custom-type.php:175
+msgid "General Help"
+msgstr "Aiuto generale"
+
+#: Z:\emilio\wordpress3\wp-content\plugins\wordpressplugin/custom-type.php:183
+msgid "Please Select"
+msgstr "Seleziona"
+
+#: Z:\emilio\wordpress3\wp-content\plugins\wordpressplugin/custom-type.php:192
+msgid "Please add a post type first..."
+msgstr "Aggiungere un Tipo di Contenuto prima"
+
+#: Z:\emilio\wordpress3\wp-content\plugins\wordpressplugin/custom-type.php:484
+msgid "Template missing for field : "
+msgstr "Manca la Template per questo campo:"
+
+#: Z:\emilio\wordpress3\wp-content\plugins\wordpressplugin/custom-type.php:496
+msgid "Template missing for field: "
+msgstr "Manca la Template per questo campo:"
+
+#: Z:\emilio\wordpress3\wp-content\plugins\wordpressplugin/custom-type.php:510
+msgid "Type:"
+msgstr "Tipo:"
+
+#: Z:\emilio\wordpress3\wp-content\plugins\wordpressplugin/custom-type.php:511
+msgid "Label:"
+msgstr "Etichetta:"
+
+#: Z:\emilio\wordpress3\wp-content\plugins\wordpressplugin/custom-type.php:512
+msgid "Field Name:"
+msgstr "Nome del Campo:"
+
+#: Z:\emilio\wordpress3\wp-content\plugins\wordpressplugin/custom-type.php:535
+msgid "No post type was given."
+msgstr "Manca il contenuto"
+
+#: Z:\emilio\wordpress3\wp-content\plugins\wordpressplugin/custom-type.php:787
+msgid "Missing post type to associate the category with."
+msgstr "Manca il contenuto da associare a questa categoria"
+
+#: Z:\emilio\wordpress3\wp-content\plugins\wordpressplugin/custom-type.php:797
+msgid "You need to give a name for the category."
+msgstr "Manca il nome alla categoria"
+
+#: Z:\emilio\wordpress3\wp-content\plugins\wordpressplugin/custom-type.php:804
+msgid "The system name is missing."
+msgstr "Manca il nome di sistema"
+
+#: Z:\emilio\wordpress3\wp-content\plugins\wordpressplugin/custom-type.php:856
+msgid "Missing post type to associate the categories with."
+msgstr "Manca il contenuto da associare a queste categorie"
+
+#: Z:\emilio\wordpress3\wp-content\plugins\wordpressplugin/custom-type.php:893
+#: Z:\emilio\wordpress3\wp-content\plugins\wordpressplugin/custom-type.php:962
+msgid "Missing post type to associate the field with."
+msgstr "Manca il contenuto da associare a questo campo"
+
+#: Z:\emilio\wordpress3\wp-content\plugins\wordpressplugin/custom-type.php:927
+#: Z:\emilio\wordpress3\wp-content\plugins\wordpressplugin/custom-type.php:996
+msgid "The field was unable to be added."
+msgstr "Questo campo non e&#232;  stato aggiunto"
+
+#: Z:\emilio\wordpress3\wp-content\plugins\wordpressplugin/custom-type.php:1096
+msgid "Do you want to delete the "
+msgstr "Vuoi veramente eliminare "
+
+#: Z:\emilio\wordpress3\wp-content\plugins\wordpressplugin/custom-type.php:1096
+msgid " content? It has "
+msgstr "contenuto? Ha "
+
+#: Z:\emilio\wordpress3\wp-content\plugins\wordpressplugin/custom-type.php:1096
+msgid " entries."
+msgstr " oggetti."
+
+#: Z:\emilio\wordpress3\wp-content\plugins\wordpressplugin/custom-type.php:1152
+msgid "Import successful"
+msgstr "Importazione riuscita"
+
+#: Z:\emilio\wordpress3\wp-content\plugins\wordpressplugin/custom-type.php:1341
+msgid " fields"
+msgstr " campi"
+
+#: Z:\emilio\wordpress3\wp-content\plugins\wordpressplugin/custom-type.php:1394
+#: Z:\emilio\wordpress3\wp-content\plugins\wordpressplugin/main.php:22
+#: Z:\emilio\wordpress3\wp-content\plugins\wordpressplugin/main.php:88
+msgid "Fields"
+msgstr "Campi"
+
+#: Z:\emilio\wordpress3\wp-content\plugins\wordpressplugin/custom-type.php:1395
+msgid "Labels"
+msgstr "Etichette"
+
+#: Z:\emilio\wordpress3\wp-content\plugins\wordpressplugin/custom-type.php:1396
+msgid "Category Sets"
+msgstr "Categoria"
+
+#: Z:\emilio\wordpress3\wp-content\plugins\wordpressplugin/custom-type.php:1399
+msgid "Admin interface"
+msgstr "Interfaccia Amministrazione"
+
+#: Z:\emilio\wordpress3\wp-content\plugins\wordpressplugin/custom-type.php:1400
+msgid "Public visibility"
+msgstr "Visibilit&#225; pubblica"
+
+#: Z:\emilio\wordpress3\wp-content\plugins\wordpressplugin/custom-type.php:1401
+msgid "Permissions"
+msgstr "Permessi"
+
+#: Z:\emilio\wordpress3\wp-content\plugins\wordpressplugin/custom-type.php:1404
+#: Z:\emilio\wordpress3\wp-content\plugins\wordpressplugin/boxes/save.php:9
+msgid "Save"
+msgstr "Salva"
+
+#: Z:\emilio\wordpress3\wp-content\plugins\wordpressplugin/custom-type.php:1405
+msgid "Statistics"
+msgstr "Statistiche"
+
+#: Z:\emilio\wordpress3\wp-content\plugins\wordpressplugin/editcontent.php:22
+#: Z:\emilio\wordpress3\wp-content\plugins\wordpressplugin/quickedit-form.php:11
+#: Z:\emilio\wordpress3\wp-content\plugins\wordpressplugin/main.php:103
+msgid "Name (plural)"
+msgstr "Nome (plurale)"
+
+#: Z:\emilio\wordpress3\wp-content\plugins\wordpressplugin/editcontent.php:24
+#: Z:\emilio\wordpress3\wp-content\plugins\wordpressplugin/main.php:105
+msgid "The name of the content."
+msgstr "Il nome del contenuto."
+
+#: Z:\emilio\wordpress3\wp-content\plugins\wordpressplugin/editcontent.php:27
+#: Z:\emilio\wordpress3\wp-content\plugins\wordpressplugin/quickedit-form.php:15
+#: Z:\emilio\wordpress3\wp-content\plugins\wordpressplugin/main.php:108
+msgid "Singular name"
+msgstr "Nome singolare"
+
+#: Z:\emilio\wordpress3\wp-content\plugins\wordpressplugin/editcontent.php:28
+#: Z:\emilio\wordpress3\wp-content\plugins\wordpressplugin/quickedit-form.php:16
+#: Z:\emilio\wordpress3\wp-content\plugins\wordpressplugin/main.php:109
+msgid "edit"
+msgstr "edita"
+
+#: Z:\emilio\wordpress3\wp-content\plugins\wordpressplugin/editcontent.php:28
+#: Z:\emilio\wordpress3\wp-content\plugins\wordpressplugin/quickedit-form.php:16
+#: Z:\emilio\wordpress3\wp-content\plugins\wordpressplugin/main.php:109
+msgid "auto"
+msgstr "automatico"
+
+#: Z:\emilio\wordpress3\wp-content\plugins\wordpressplugin/editcontent.php:29
+#: Z:\emilio\wordpress3\wp-content\plugins\wordpressplugin/main.php:110
+msgid "The singular version of the name."
+msgstr "La versione singolare del nome"
+
+#: Z:\emilio\wordpress3\wp-content\plugins\wordpressplugin/editcontent.php:32
+#: Z:\emilio\wordpress3\wp-content\plugins\wordpressplugin/main.php:113
+msgid "System key"
+msgstr "Nome di Sistema"
+
+#: Z:\emilio\wordpress3\wp-content\plugins\wordpressplugin/editcontent.php:34
+#: Z:\emilio\wordpress3\wp-content\plugins\wordpressplugin/main.php:115
+msgid "The key is the system friendly version of the name."
+msgstr "Il nome di sistema utilizzato dalla macchina"
+
+#: Z:\emilio\wordpress3\wp-content\plugins\wordpressplugin/editcontent.php:37
+msgid "Use pretty URLs"
+msgstr "Usa URL semplici"
+
+#: Z:\emilio\wordpress3\wp-content\plugins\wordpressplugin/editcontent.php:43
+#: Z:\emilio\wordpress3\wp-content\plugins\wordpressplugin/main.php:119
+msgid "Features"
+msgstr "Opzioni"
+
+#: Z:\emilio\wordpress3\wp-content\plugins\wordpressplugin/editcontent.php:83
+#: Z:\emilio\wordpress3\wp-content\plugins\wordpressplugin/main.php:148
+msgid "Delete Post Type?"
+msgstr "Elimino questo tipo di contenuto?"
+
+#: Z:\emilio\wordpress3\wp-content\plugins\wordpressplugin/quickedit-form.php:9
+#: Z:\emilio\wordpress3\wp-content\plugins\wordpressplugin/main.php:39
+msgid "Quick Edit"
+msgstr "Edit in linea"
+
+#: Z:\emilio\wordpress3\wp-content\plugins\wordpressplugin/quickedit-form.php:21
+#: Z:\emilio\wordpress3\wp-content\plugins\wordpressplugin/main.php:122
+msgid "title"
+msgstr "titolo"
+
+#: Z:\emilio\wordpress3\wp-content\plugins\wordpressplugin/quickedit-form.php:22
+#: Z:\emilio\wordpress3\wp-content\plugins\wordpressplugin/main.php:123
+msgid "editor"
+msgstr "editore"
+
+#: Z:\emilio\wordpress3\wp-content\plugins\wordpressplugin/quickedit-form.php:23
+#: Z:\emilio\wordpress3\wp-content\plugins\wordpressplugin/main.php:124
+msgid "author"
+msgstr "autore"
+
+#: Z:\emilio\wordpress3\wp-content\plugins\wordpressplugin/quickedit-form.php:24
+#: Z:\emilio\wordpress3\wp-content\plugins\wordpressplugin/main.php:125
+msgid "thumbnail"
+msgstr "immagine"
+
+#: Z:\emilio\wordpress3\wp-content\plugins\wordpressplugin/quickedit-form.php:25
+#: Z:\emilio\wordpress3\wp-content\plugins\wordpressplugin/main.php:126
+msgid "excerpt"
+msgstr "sommario"
+
+#: Z:\emilio\wordpress3\wp-content\plugins\wordpressplugin/quickedit-form.php:26
+#: Z:\emilio\wordpress3\wp-content\plugins\wordpressplugin/main.php:127
+msgid "trackbacks"
+msgstr "trackbacks"
+
+#: Z:\emilio\wordpress3\wp-content\plugins\wordpressplugin/quickedit-form.php:27
+#: Z:\emilio\wordpress3\wp-content\plugins\wordpressplugin/main.php:128
+msgid "custom fields"
+msgstr "campi personalizzati"
+
+#: Z:\emilio\wordpress3\wp-content\plugins\wordpressplugin/quickedit-form.php:28
+#: Z:\emilio\wordpress3\wp-content\plugins\wordpressplugin/main.php:129
+msgid "comments"
+msgstr "commenti"
+
+#: Z:\emilio\wordpress3\wp-content\plugins\wordpressplugin/quickedit-form.php:29
+#: Z:\emilio\wordpress3\wp-content\plugins\wordpressplugin/main.php:130
+msgid "revisions"
+msgstr "revisioni"
+
+#: Z:\emilio\wordpress3\wp-content\plugins\wordpressplugin/quickedit-form.php:30
+#: Z:\emilio\wordpress3\wp-content\plugins\wordpressplugin/main.php:131
+msgid "parent-child relationships"
+msgstr "Relazione gerarchica"
+
+#: Z:\emilio\wordpress3\wp-content\plugins\wordpressplugin/quickedit-form.php:32
+#: Z:\emilio\wordpress3\wp-content\plugins\wordpressplugin/main.php:133
+msgid "page attributes"
+msgstr "attributi di pagina"
+
+#: Z:\emilio\wordpress3\wp-content\plugins\wordpressplugin/quickedit-form.php:38
+msgid "Cancel"
+msgstr "Annulla"
+
+#: Z:\emilio\wordpress3\wp-content\plugins\wordpressplugin/quickedit-form.php:39
+msgid "Update"
+msgstr "Aggiorna"
+
+#: Z:\emilio\wordpress3\wp-content\plugins\wordpressplugin/main.php:12
+msgid "Bulk Actions"
+msgstr "Azioni"
+
+#: Z:\emilio\wordpress3\wp-content\plugins\wordpressplugin/main.php:13
+#: Z:\emilio\wordpress3\wp-content\plugins\wordpressplugin/main.php:40
+#: Z:\emilio\wordpress3\wp-content\plugins\wordpressplugin/boxes/save.php:6
+#: Z:\emilio\wordpress3\wp-content\plugins\wordpressplugin/boxes/field-rows.php:23
+msgid "Delete"
+msgstr "Elimina"
+
+#: Z:\emilio\wordpress3\wp-content\plugins\wordpressplugin/main.php:21
+#: Z:\emilio\wordpress3\wp-content\plugins\wordpressplugin/main.php:87
+msgid "Post Type"
+msgstr "Contenuto"
+
+#: Z:\emilio\wordpress3\wp-content\plugins\wordpressplugin/main.php:23
+#: Z:\emilio\wordpress3\wp-content\plugins\wordpressplugin/main.php:89
+msgid "Categories"
+msgstr "Categorie"
+
+#: Z:\emilio\wordpress3\wp-content\plugins\wordpressplugin/main.php:53
+#: Z:\emilio\wordpress3\wp-content\plugins\wordpressplugin/main.php:73
+msgid "(none)"
+msgstr "(nessuno)"
+
+#: Z:\emilio\wordpress3\wp-content\plugins\wordpressplugin/main.php:99
+msgid "Add a New Post Type"
+msgstr "Aggiungi un nuovo Contenuto"
+
+#: Z:\emilio\wordpress3\wp-content\plugins\wordpressplugin/main.php:100
+msgid "The system key will be changed to %VAR%. Is that ok?"
+msgstr "Il nome di sistema sar&#225; cambiato in %VAR%. Continuo?"
+
+#: Z:\emilio\wordpress3\wp-content\plugins\wordpressplugin/main.php:100
+msgid "Please check your data!"
+msgstr "Controllare i dati inseriti!"
+
+#: Z:\emilio\wordpress3\wp-content\plugins\wordpressplugin/main.php:140
+msgid "Add Post Type"
+msgstr "Aggiungi contenuto"
+
+#: Z:\emilio\wordpress3\wp-content\plugins\wordpressplugin/boxes/utility.php:7
+msgid "All Post Types"
+msgstr "Tutti i contenuti"
+
+#: Z:\emilio\wordpress3\wp-content\plugins\wordpressplugin/boxes/utility.php:20
+msgid "Select either a single post type, or all post types to export."
+msgstr "Seleziona un singolo contenuto oppure tutti e clicca su export"
+
+#: Z:\emilio\wordpress3\wp-content\plugins\wordpressplugin/boxes/utility.php:24
+msgid "Export"
+msgstr "Esporta"
+
+#: Z:\emilio\wordpress3\wp-content\plugins\wordpressplugin/boxes/utility.php:25
+msgid "Click here, and save the output text below."
+msgstr "Clicca qui e salva il contenuto che appare nella casella sottostante"
+
+#: Z:\emilio\wordpress3\wp-content\plugins\wordpressplugin/boxes/utility.php:28
+msgid "Import"
+msgstr "Importa"
+
+#: Z:\emilio\wordpress3\wp-content\plugins\wordpressplugin/boxes/utility.php:29
+msgid "Paste a previous export in the box below, and click import. Notice that if it is a full import all your post types defined will be lost."
+msgstr "Incolla il contenuto di un export precedente nella casella qui sotto e cllicca import. Notare che una importazione FULL cancella tutti i contenuti creati in questa sessione."
+
+#: Z:\emilio\wordpress3\wp-content\plugins\wordpressplugin/boxes/category-sets.php:2
+msgid "Add category set"
+msgstr "Aggiungi categoria"
+
+#: Z:\emilio\wordpress3\wp-content\plugins\wordpressplugin/boxes/category-sets.php:10
+#: Z:\emilio\wordpress3\wp-content\plugins\wordpressplugin/boxes/category-sets.php:24
+msgid "Use"
+msgstr "Uso"
+
+#: Z:\emilio\wordpress3\wp-content\plugins\wordpressplugin/boxes/category-sets.php:12
+#: Z:\emilio\wordpress3\wp-content\plugins\wordpressplugin/boxes/category-sets.php:26
+#: Z:\emilio\wordpress3\wp-content\plugins\wordpressplugin/boxes/fields.php:14
+#: Z:\emilio\wordpress3\wp-content\plugins\wordpressplugin/boxes/fields.php:26
+msgid "Type"
+msgstr "Tipo"
+
+#: Z:\emilio\wordpress3\wp-content\plugins\wordpressplugin/boxes/category-sets.php:13
+#: Z:\emilio\wordpress3\wp-content\plugins\wordpressplugin/boxes/category-sets.php:27
+msgid "Post Types"
+msgstr "Contenuti"
+
+#: Z:\emilio\wordpress3\wp-content\plugins\wordpressplugin/boxes/category-sets.php:35
+msgid "Save categories"
+msgstr "Salva Categoria"
+
+#: Z:\emilio\wordpress3\wp-content\plugins\wordpressplugin/boxes/category-sets.php:39
+msgid "Add New Category"
+msgstr "Aggiungi una nuova categoria"
+
+#: Z:\emilio\wordpress3\wp-content\plugins\wordpressplugin/boxes/category-sets.php:40
+msgid "Edit Category"
+msgstr "Categoria"
+
+#: Z:\emilio\wordpress3\wp-content\plugins\wordpressplugin/boxes/permissions.php:15
+msgid "Long help text to explain permission goes here... <a href=\"http://codex.wordpress.org/Roles_and_Capabilities\">Roles and Capabilities</a>"
+msgstr "Aiuto per i permessi <a href=\"http://codex.wordpress.org/Roles_and_Capabilities\">Ruoli e capacita&quot; </a>"
+
+#: Z:\emilio\wordpress3\wp-content\plugins\wordpressplugin/boxes/permissions.php:18
+msgid "Permission type"
+msgstr "Tipi di permesso"
+
+#: Z:\emilio\wordpress3\wp-content\plugins\wordpressplugin/boxes/permissions.php:20
+#: Z:\emilio\wordpress3\wp-content\plugins\wordpressplugin/boxes/admin-interface.php:105
+msgid "Post"
+msgstr "Articolo"
+
+#: Z:\emilio\wordpress3\wp-content\plugins\wordpressplugin/boxes/permissions.php:21
+msgid "Page"
+msgstr "Pagina"
+
+#: Z:\emilio\wordpress3\wp-content\plugins\wordpressplugin/boxes/permissions.php:22
+msgid "this type???"
+msgstr "che tipo???"
+
+#: Z:\emilio\wordpress3\wp-content\plugins\wordpressplugin/boxes/permissions.php:29
+msgid "edit object"
+msgstr "Modifica oggetto"
+
+#: Z:\emilio\wordpress3\wp-content\plugins\wordpressplugin/boxes/permissions.php:31
+#: Z:\emilio\wordpress3\wp-content\plugins\wordpressplugin/boxes/permissions.php:37
+#: Z:\emilio\wordpress3\wp-content\plugins\wordpressplugin/boxes/permissions.php:43
+#: Z:\emilio\wordpress3\wp-content\plugins\wordpressplugin/boxes/permissions.php:49
+#: Z:\emilio\wordpress3\wp-content\plugins\wordpressplugin/boxes/permissions.php:55
+#: Z:\emilio\wordpress3\wp-content\plugins\wordpressplugin/boxes/permissions.php:61
+#: Z:\emilio\wordpress3\wp-content\plugins\wordpressplugin/boxes/permissions.php:67
+msgid "Learn more"
+msgstr "Informazioni"
+
+#: Z:\emilio\wordpress3\wp-content\plugins\wordpressplugin/boxes/permissions.php:35
+msgid "edit type"
+msgstr "modifica tipo"
+
+#: Z:\emilio\wordpress3\wp-content\plugins\wordpressplugin/boxes/permissions.php:41
+msgid "edit others&rsquo; objects"
+msgstr "modifica gli altri oggetti"
+
+#: Z:\emilio\wordpress3\wp-content\plugins\wordpressplugin/boxes/permissions.php:47
+msgid "publish objects"
+msgstr "Pubblica oggetti"
+
+#: Z:\emilio\wordpress3\wp-content\plugins\wordpressplugin/boxes/permissions.php:53
+msgid "read object"
+msgstr "lettura oggetti"
+
+#: Z:\emilio\wordpress3\wp-content\plugins\wordpressplugin/boxes/permissions.php:59
+msgid "read private object"
+msgstr "lettura oggetti privati"
+
+#: Z:\emilio\wordpress3\wp-content\plugins\wordpressplugin/boxes/permissions.php:65
+msgid "delete object"
+msgstr "eliminazione oggetti"
+
+#: Z:\emilio\wordpress3\wp-content\plugins\wordpressplugin/boxes/permissions.php:74
+msgid "Update Permissions"
+msgstr "Aggiorna Permessi"
+
+#: Z:\emilio\wordpress3\wp-content\plugins\wordpressplugin/boxes/utilities.php:1
+msgid "To export all content-types or import content-types, go to the "
+msgstr "Per esportare i contenuti o per importarli, vai alla "
+
+#: Z:\emilio\wordpress3\wp-content\plugins\wordpressplugin/boxes/utilities.php:1
+msgid "content-types utilities page"
+msgstr "pagina delle utilit&#225; "
+
+#: Z:\emilio\wordpress3\wp-content\plugins\wordpressplugin/boxes/save.php:2
+msgid "Created by"
+msgstr "Creato da"
+
+#: Z:\emilio\wordpress3\wp-content\plugins\wordpressplugin/boxes/save.php:3
+msgid "Updated last by"
+msgstr "Ultimo aggiornamento di"
+
+#: Z:\emilio\wordpress3\wp-content\plugins\wordpressplugin/boxes/labels.php:30
+msgid "Save labels"
+msgstr "Aggiorna etichette"
+
+#: Z:\emilio\wordpress3\wp-content\plugins\wordpressplugin/boxes/public-visibility.php:13
+msgid "Include in search"
+msgstr "Includi nella ricerca"
+
+#: Z:\emilio\wordpress3\wp-content\plugins\wordpressplugin/boxes/public-visibility.php:14
+msgid "Checking this will include the post from this post type in search results."
+msgstr "Selezionando questo campo il contenuto di questo oggetto sara&quot;  ricercabile."
+
+#: Z:\emilio\wordpress3\wp-content\plugins\wordpressplugin/boxes/public-visibility.php:30
+msgid "Query var"
+msgstr "Query var"
+
+#: Z:\emilio\wordpress3\wp-content\plugins\wordpressplugin/boxes/public-visibility.php:31
+msgid "Checking this will include in the query vars."
+msgstr "Selezionando questo campo sara&quot;  possibile includerlo nelle query"
+
+#: Z:\emilio\wordpress3\wp-content\plugins\wordpressplugin/boxes/public-visibility.php:35
+msgid "Update Public Visibility"
+msgstr "Aggiorna Visibilit&#225; Pubblica"
+
+#: Z:\emilio\wordpress3\wp-content\plugins\wordpressplugin/boxes/admin-interface.php:27
+msgid "Use default UI"
+msgstr "Usa le pagine di default"
+
+#: Z:\emilio\wordpress3\wp-content\plugins\wordpressplugin/boxes/admin-interface.php:35
+msgid "Use the default WordPress post edit UI"
+msgstr "Usa la pagina di modifica default di WordPress "
+
+#: Z:\emilio\wordpress3\wp-content\plugins\wordpressplugin/boxes/admin-interface.php:40
+msgid "Columns in the table"
+msgstr "Colonne in tabella"
+
+#: Z:\emilio\wordpress3\wp-content\plugins\wordpressplugin/boxes/admin-interface.php:42
+msgid "Columns to show in the table items:"
+msgstr "Colonne in tabella"
+
+#: Z:\emilio\wordpress3\wp-content\plugins\wordpressplugin/boxes/admin-interface.php:55
+msgid "Unused columns"
+msgstr "Colonne non usate"
+
+#: Z:\emilio\wordpress3\wp-content\plugins\wordpressplugin/boxes/admin-interface.php:59
+msgid "Add the field keys, separated by commas, to the input in order to show in the posts table for the content-type."
+msgstr "Aggiungere i nomi da visulizzare nelle colonne di edit del contenuto separati da una virgola"
+
+#: Z:\emilio\wordpress3\wp-content\plugins\wordpressplugin/boxes/admin-interface.php:60
+msgid "Drag and drop the fields to rearrange the columns"
+msgstr "Muovi i campi per riordinare le colonne"
+
+#: Z:\emilio\wordpress3\wp-content\plugins\wordpressplugin/boxes/admin-interface.php:80
+msgid "Bulk checkbox"
+msgstr "Checkbox globale"
+
+#: Z:\emilio\wordpress3\wp-content\plugins\wordpressplugin/boxes/admin-interface.php:82
+msgid "Title"
+msgstr "Titolo"
+
+#: Z:\emilio\wordpress3\wp-content\plugins\wordpressplugin/boxes/admin-interface.php:84
+msgid "Author"
+msgstr "Autore"
+
+#: Z:\emilio\wordpress3\wp-content\plugins\wordpressplugin/boxes/admin-interface.php:86
+msgid "Date"
+msgstr "Data"
+
+#: Z:\emilio\wordpress3\wp-content\plugins\wordpressplugin/boxes/admin-interface.php:91
+msgid "Admin menu"
+msgstr "Menu amministrazione"
+
+#: Z:\emilio\wordpress3\wp-content\plugins\wordpressplugin/boxes/admin-interface.php:94
+msgid "Position"
+msgstr "Posizione"
+
+#: Z:\emilio\wordpress3\wp-content\plugins\wordpressplugin/boxes/admin-interface.php:96
+msgid "Below Posts"
+msgstr "Sotto gli articoli"
+
+#: Z:\emilio\wordpress3\wp-content\plugins\wordpressplugin/boxes/admin-interface.php:97
+msgid "Below Media"
+msgstr "Sotto Media"
+
+#: Z:\emilio\wordpress3\wp-content\plugins\wordpressplugin/boxes/admin-interface.php:98
+msgid "Below Pages"
+msgstr "Sotto le pagine"
+
+#: Z:\emilio\wordpress3\wp-content\plugins\wordpressplugin/boxes/admin-interface.php:103
+msgid "Icon"
+msgstr "Icona"
+
+#: Z:\emilio\wordpress3\wp-content\plugins\wordpressplugin/boxes/admin-interface.php:106
+msgid "Photo"
+msgstr "Foto"
+
+#: Z:\emilio\wordpress3\wp-content\plugins\wordpressplugin/boxes/admin-interface.php:107
+msgid "Podcast"
+msgstr "Podcast"
+
+#: Z:\emilio\wordpress3\wp-content\plugins\wordpressplugin/boxes/admin-interface.php:115
+msgid "Update Admin Interface"
+msgstr "Aggiorna l&#39;amministrazione"
+
+#: Z:\emilio\wordpress3\wp-content\plugins\wordpressplugin/boxes/fields.php:5
+msgid "Add New Field"
+msgstr "Aggiungi un nuovo campo"
+
+#: Z:\emilio\wordpress3\wp-content\plugins\wordpressplugin/boxes/fields.php:15
+#: Z:\emilio\wordpress3\wp-content\plugins\wordpressplugin/boxes/fields.php:27
+msgid "System Name"
+msgstr "Nome Sistema"
+
+#: Z:\emilio\wordpress3\wp-content\plugins\wordpressplugin/boxes/fields.php:16
+#: Z:\emilio\wordpress3\wp-content\plugins\wordpressplugin/boxes/fields.php:28
+msgid "Used"
+msgstr "Uso"
+
+#: Z:\emilio\wordpress3\wp-content\plugins\wordpressplugin/boxes/fields.php:50
+msgid "Special formatting for fields"
+msgstr "Formati speciali per i campi"
+
+#: Z:\emilio\wordpress3\wp-content\plugins\wordpressplugin/boxes/fields.php:51
+msgid "Drag the special formatting rows up to the fields table above."
+msgstr "Muovi i formati speciali nella tabella dei campi qui sopra"
+
+#: Z:\emilio\wordpress3\wp-content\plugins\wordpressplugin/boxes/fields.php:58
+#: Z:\emilio\wordpress3\wp-content\plugins\wordpressplugin/boxes/field-rows.php:9
+msgid "Fieldset break"
+msgstr "Tag Fieldset"
+
+#: Z:\emilio\wordpress3\wp-content\plugins\wordpressplugin/boxes/fields.php:60
+#: Z:\emilio\wordpress3\wp-content\plugins\wordpressplugin/boxes/field-rows.php:11
+msgid "Remove"
+msgstr "Rimuovi"
+
+#: Z:\emilio\wordpress3\wp-content\plugins\wordpressplugin/boxes/fields.php:69
+msgid "Save Fields"
+msgstr "Salva campi"
+
+#: Z:\emilio\wordpress3\wp-content\plugins\wordpressplugin/boxes/field-rows.php:20
+#: Z:\emilio\wordpress3\wp-content\plugins\wordpressplugin/boxes/field-rows.php:22
+msgid "Edit field: "
+msgstr "Modifica campi"
+
+#: Z:\emilio\wordpress3\wp-content\plugins\wordpressplugin/boxes/category-sets-rows.php:12
+msgid "Category"
+msgstr "Categoria"
+
+#: Z:\emilio\wordpress3\wp-content\plugins\wordpressplugin/boxes/category-sets-rows.php:12
+msgid "Tag"
+msgstr "Etichetta"
+
+#: Z:\emilio\wordpress3\wp-content\plugins\wordpressplugin/classes/javascript.php:7
+msgid "Delete All"
+msgstr "Elimina tutto"
+
+#: Z:\emilio\wordpress3\wp-content\plugins\wordpressplugin/classes/javascript.php:8
+msgid "Move all to Posts"
+msgstr "Modifica tutti come Posts"
+
+#: Z:\emilio\wordpress3\wp-content\plugins\wordpressplugin/classes/javascript.php:9
+msgid "Update the category?"
+msgstr "Aggiorno la categoria?"
+
+#: Z:\emilio\wordpress3\wp-content\plugins\wordpressplugin/classes/javascript.php:10
+msgid "Labels updated"
+msgstr "Etichette aggiornate"
+
+#: Z:\emilio\wordpress3\wp-content\plugins\wordpressplugin/classes/javascript.php:11
+msgid "Visibility updated"
+msgstr "Visibilit&#225; aggiornata"
+
+#: Z:\emilio\wordpress3\wp-content\plugins\wordpressplugin/classes/javascript.php:12
+msgid "Permissions updated"
+msgstr "Permessi aggiornati"
+
+#: Z:\emilio\wordpress3\wp-content\plugins\wordpressplugin/classes/javascript.php:13
+msgid "Fields updated"
+msgstr "Campi  aggiornati"
+
+#: Z:\emilio\wordpress3\wp-content\plugins\wordpressplugin/classes/javascript.php:14
+msgid "Admin Interface updated"
+msgstr "Interfaccia amministrazione aggiornata"
+
+#: Z:\emilio\wordpress3\wp-content\plugins\wordpressplugin/classes/javascript.php:15
+msgid "Are you sure you want to delete all the selected post types?"
+msgstr "Vuoi veramente eliminare i contenuti selezionati?"
+
+#: Z:\emilio\wordpress3\wp-content\plugins\wordpressplugin/classes/javascript.php:16
+msgid "Are you sure you want to delete this field?"
+msgstr "Vuoi veramente eliminare questo campo?"
+
+#: Z:\emilio\wordpress3\wp-content\plugins\wordpressplugin/templates/add-category.php:16
+#: Z:\emilio\wordpress3\wp-content\plugins\wordpressplugin/templates/field-form.php:55
+msgid "Name:"
+msgstr "Nome:"
+
+#: Z:\emilio\wordpress3\wp-content\plugins\wordpressplugin/templates/add-category.php:23
+#: Z:\emilio\wordpress3\wp-content\plugins\wordpressplugin/templates/field-form.php:59
+msgid "System key:"
+msgstr "Nome di Sistema:"
+
+#: Z:\emilio\wordpress3\wp-content\plugins\wordpressplugin/templates/add-category.php:52
+msgid "Features:"
+msgstr "Opzioni:"
+
+#: Z:\emilio\wordpress3\wp-content\plugins\wordpressplugin/templates/add-category.php:56
+msgid "Category (hierarchical)"
+msgstr "Categoria (Gerarchica)"
+
+#: Z:\emilio\wordpress3\wp-content\plugins\wordpressplugin/templates/add-category.php:59
+msgid "Tags"
+msgstr "Etichette"
+
+#: Z:\emilio\wordpress3\wp-content\plugins\wordpressplugin/templates/add-category.php:70
+msgid "Searchable"
+msgstr "Ricercabile:"
+
+#: Z:\emilio\wordpress3\wp-content\plugins\wordpressplugin/templates/add-category.php:75
+msgid "Friendly URL"
+msgstr "URL Semplice:"
+
+#: Z:\emilio\wordpress3\wp-content\plugins\wordpressplugin/templates/field-form-field-settings.php:2
+msgid "Settings"
+msgstr "Opzioni Generali"
+
+#: Z:\emilio\wordpress3\wp-content\plugins\wordpressplugin/templates/field-form.php:5
+msgid "You need to name the field."
+msgstr "Manca il nome al campo"
+
+#: Z:\emilio\wordpress3\wp-content\plugins\wordpressplugin/templates/field-form.php:13
+msgid "No field plugins defined. Please install some field plugins."
+msgstr "Non ci sono plugin per i campi. Aggiungine prima qualcuno."
+
+#: Z:\emilio\wordpress3\wp-content\plugins\wordpressplugin/templates/field-form.php:74
+msgid "Field type:"
+msgstr "Tipo del campo:"
+
+#: Z:\emilio\wordpress3\wp-content\plugins\wordpressplugin/templates/field-form.php:94
+msgid "Please select a Custom Type First"
+msgstr "Selezionare un Contenuto prima"
+
+#~ msgid "ContExFlow General Help"
+#~ msgstr "Aiuto generale"
+
+#~ msgid "Show in the list:"
+#~ msgstr "Mostra nella lista:"
+
+#~ msgid "Hierarchical:"
+#~ msgstr "Gerarchico:"
+
+#~ msgid "Public:"
+#~ msgstr "Pubblico:"
+
+#~ msgid "Key"
+#~ msgstr "Chiave"
+
+#~ msgid "Granular permission names"
+#~ msgstr "Nomi per i permessi granulari"
+
+#~ msgid "Language Related Labels"
+#~ msgstr "Etichette in lingua"
+
+#~ msgid "name"
+#~ msgstr "nome"

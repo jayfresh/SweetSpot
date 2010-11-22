@@ -1,0 +1,187 @@
+
+/* ------------------------------------------------12 Col  Grid system */
+
+.grid1col {
+	width:60px;
+}
+
+.grid2col {
+	width:140px;
+}
+
+.grid3col {
+	width:220px;
+}
+
+.grid4col {
+	width:300px;
+}
+
+.grid5col {
+	width:380px;
+}
+
+.grid6col {
+	width:460px;
+}
+
+.grid7col {
+	width:540px;
+}
+
+.grid8col {
+	width:620px;
+}
+
+.grid9col {
+	width:700px;
+}
+
+.grid10col {
+	width:780px;
+}
+
+.grid11col {
+	width:860px;
+}
+
+.grid12col {
+	width:940px;
+}
+
+.marginleft {
+	margin-left:20px;
+	position: relative;
+}
+
+.marginright {
+	margin-right:20px;
+}
+.paddingleft {
+	padding-left: 20px;
+}
+
+/* ------------------------------------------------24 col grid */
+
+.grid24-1col {
+	width:30px;
+}
+
+.grid24-2col {
+	width:70px;
+}
+
+.grid24-3col {
+	width:110px;
+}
+
+.grid24-4col {
+	width:150px;
+}
+
+.grid24-5col {
+	width:190px;
+}
+
+.grid24-6col {
+	width:230px;
+}
+
+.grid24-7col {
+	width:270px;
+}
+
+.grid24-8col {
+	width:310px;
+}
+
+.grid24-9col {
+	width:350px;
+}
+
+.grid24-10col {
+	width:390px;
+}
+
+.grid24-11col {
+	width: 430px;
+}
+
+.grid24-12col {
+	width:470px;
+}
+
+.grid24-13col {
+	width:510px;
+}
+
+.grid24-14col {
+	width:550px;
+}
+
+.grid24-15col {
+	width:590px;
+}
+
+.grid24-16col {
+	width:630px;
+}
+
+.grid24-17col {
+	width:670px;
+}
+
+.grid24-18col {
+	width:710px;
+}
+
+.grid24-19col {
+	width:750px;
+}
+
+.grid24-20col {
+	width:790px;
+}
+
+.grid24-21col {
+	width:830px;
+}
+
+.grid24-22col {
+	width:870px;
+}
+
+.grid24-23col {
+	width:910px;
+}
+
+.grid24-24col {
+	width:950px;
+}
+
+
+
+/* ------------------------------------------------Div Modifiers */
+
+.overhid {
+	overflow: hidden;
+}
+
+.left {
+	float: left;
+}
+
+.right {
+	float: right;
+}
+
+.clearboth {
+	clear: both;
+}
+
+.alignright {
+	text-align: right;
+}
+.aligncentre {
+	text-align: center;
+}

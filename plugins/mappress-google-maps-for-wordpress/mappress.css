@@ -1,0 +1,192 @@
+﻿/*
+	This program is distributed in the hope that it will be useful,
+	but WITHOUT ANY WARRANTY; without even the implied warranty of
+	MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+*/
+
+/*
+	-----------------------------------------------------------------------------------
+	Styling you can change for your own blog
+    Many themes use high-priority selectors, so if you make a CSS setting and it
+    doesn't seem to be working, try to add the !important modifier to your CSS.
+	-----------------------------------------------------------------------------------
+*/
+
+/*  Map containing <div> */
+.mapp-div {
+	overflow: hidden;
+	text-align: center;
+	padding: 0px 0px 0px 0px;
+	line-height: normal;
+	margin: 0 0 0 0;
+	color: black;
+}
+
+/* Map images returned from google - these setting are required or map will not render correctly */
+.mapp-div img {
+	background-color: transparent !important;
+	max-width: none !important;  /* Some themes have max-width/max-height set, which interferes with map */
+	max-height: none !important;
+}
+
+/* Redundant IDrl selectors as a workaround for themes that use ID selectors on post IMG elements */
+#mappress0 img, #mappress1 img, #mappress2 img,  #mappress3 img, #mappress4 img, #mappress5 img, #mappress6 img, #mappress7 img,
+#mappress8 img, #mappress9 img, #mappress10 img, #mappress11 img, #mappress12 img, #mappress13 img, #mappress14 img,
+#mappress15 img, #mappress16 img, #mappress17 img, #mappress18 img, #mappress19 img, #mappress20 img, #mappress21 img,
+#mappress22 img, #mappress23 img, #mappress24 img, #mappress25 img, #mappress26 img, #mappress27 img, #mappress28 img,
+#mappress29 img, #mappress30 img
+{
+	background-color: transparent !important;
+	max-width: none !important;
+	max-height: none !important;
+}
+
+#mappress0 img {
+    background-color: transparent !important;
+    max-width: none !important;
+    max-height: none !important;
+}
+
+
+/* Infowindow */
+.mapp-overlay-div {
+	color: black;
+	margin: 5px 5px 5px 5px;
+	font-size: 12px;
+
+}
+
+.mapp-overlay-div img {
+	margin: 3px 3px 3px 3px;
+}
+
+/* InfoWindow title only */
+.mapp-overlay-title {
+	font-weight: bold;
+	margin-bottom: 5px;
+}
+
+/* Infowindow 'body' - the address or whatever text you put in it */
+.mapp-overlay-body {
+}
+
+/* The words 'directions', 'from' and 'to' when getting directions inside the infoWindow */
+.mapp-overlay-directions {
+	clear: both;
+}
+
+/* The links 'from' and 'to' for directions inside the infoWindow */
+.mapp-overlay-directions a {
+}
+
+/* Street view in the blog body */
+.mapp-street-div {
+}
+
+/* Directions in the blog body */
+.mapp-directions-div {
+}
+
+/*
+	-----------------------------------------------------------------------------------
+	Styling for MapPress internal messages, etc.  You shouldn't need to change these...
+	-----------------------------------------------------------------------------------
+*/
+
+/* Map infowindow edit / delete links */
+.mapp-overlay-edit {
+	clear: both;
+}
+
+.api_error {
+	background-color: #ffebe8;
+	border-color: #c00;
+}
+
+.api_ok {
+	background-color: #ccff99;
+	border-color: #669900;
+}
+
+.api_error, .api_ok {
+	border-width: 1px;
+	border-style: solid;
+	padding: 0 3px;
+	margin: 5px 5px 2px;
+}
+
+.mapp-poweredby {
+	font-size: 8pt;
+}
+
+.mapp-address {
+	width: 100%;
+}
+
+.mapp-address-corrected {
+	font-size: x-small;
+	width: 100%;
+	border: none;
+	background-color: transparent;
+}
+
+.mapp-address-error {
+	background-color: #ffebe8;
+}
+
+.mapp-address-error p {
+	margin: 0.5em 0;
+	line-height: 1;
+	padding: 2px;
+}
+
+.mapp-plugin-update {
+	line-height: 29px;
+	font-size: 12px;
+	text-align: center;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-top-width: 1px;
+	border-top-style: solid;
+	background-color: #ffebe8;
+	border-bottom-color: #ccc;
+	border-top-color: #ccc;
+	color: #555;
+}
+
+.mapp-plugin-update a {
+	font-size: 1.1em;
+}
+
+/* Icon list */
+.mapp-icon-list {
+	background-color: white;
+	display:none;
+	overflow: hidden;
+}
+
+.mapp-icon-list ul li {
+	float: left;
+}
+
+.mapp-icon-list a:hover img {
+	border: 1px solid blue;
+}
+
+.mapp-icon-list a img {
+	border: 1px solid white;
+}
+
+
+/* Jquery dialog boxes */
+.ui-dialog {
+	background-color: white;
+	border: 1px solid black;
+}
+
+.ui-dialog-titlebar {
+	background-color: lightgray;
+	text-align: center;
+	padding: 3px 3px 3px 3px;
+}
+

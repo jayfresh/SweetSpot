@@ -1,0 +1,284 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: mappress\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2009-07-16 21:00+0200\n"
+"PO-Revision-Date: \n"
+"Last-Translator: Mikael Nord <nord@mikaelnord.se>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-Language: Svenska\n"
+"X-Poedit-Country: SVERIGE\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: mappress.php:134
+#, php-format
+msgid "MapPress has changed with this version.  You must re-enter your maps.  Please see the note on the %1$sMapPress options screen%2$s"
+msgstr "MapPress är inte längre bakåtkompatibelt. Du måste mata in dina kartor på nytt. Se information på %1$sMapPress inställningsvy%2$s"
+
+#: mappress.php:174
+msgid "Google error: BAD REQUEST"
+msgstr "Google error: Felaktig fråga"
+
+#: mappress.php:175
+msgid "Google internal error.  Try again later."
+msgstr "Google internal error. Vänligen försök på nytt lite senare."
+
+#: mappress.php:176
+msgid "The starting or ending address was missing."
+msgstr "Någon av de angivna adresserna är felaktig."
+
+#: mappress.php:177
+msgid "The starting or ending address could not be found.  Please check that the address is correct and completely entered."
+msgstr "Start- eller måladressen kan inte hittas. Vänligen kontrollera så att adresserna är korrekta."
+
+#: mappress.php:178
+msgid "Google cannot return those directions for legal or contractual reasons"
+msgstr "Google är förhindrad att lämna ut denna information av legala eller avtalsrättsliga skäl."
+
+#: mappress.php:179
+msgid "Google cannot return directions between those addresses.  There is no route between them or the routing information is not available."
+msgstr "Google kan inte finna någon vägbeskrivning mellan dessa adresser. Antingen finns det ingen väg eller så saknas det information om vägen."
+
+#: mappress.php:180
+msgid "Invalid map API key"
+msgstr "Google Maps API Key är ogiltlig."
+
+#: mappress.php:181
+msgid "Your key has issued too many queries in one day."
+msgstr "Din Google Maps API Key har använts till för många förfrågningar på en dag."
+
+#: mappress.php:182
+msgid "Unknown error, unable to return directions.  Status code = "
+msgstr "Okänt fel, kan inte lämna något svar. Status code = "
+
+#: mappress.php:183
+#: mappress.php:221
+msgid "No matching address"
+msgstr "Hittar inte adressen."
+
+#: mappress.php:184
+msgid "Did you mean: "
+msgstr "Menade du: "
+
+#: mappress.php:185
+msgid "Error: your browser does not seem to support the street view Flash player"
+msgstr "Felmeddelande: Din webbläsare verkar inte stödja "the street view Flash Player."
+
+#: mappress.php:186
+msgid "Sorry, no street view data is available for this location"
+msgstr "Beklagar, hittar inga uppgifter om denna plats."
+
+#: mappress.php:187
+msgid "Sorry, Google was unable to display the street view in your browser"
+msgstr "Beklagar, Google kan inte visa "the street view Flash player" i din webbläsare."
+
+#: mappress.php:188
+msgid "Street view"
+msgstr "Street view"
+
+#: mappress.php:189
+msgid "to here"
+msgstr "till"
+
+#: mappress.php:190
+msgid "from here"
+msgstr "från"
+
+#: mappress.php:191
+msgid "Get directions"
+msgstr "Vägbeskrivning"
+
+#: mappress.php:218
+msgid "Please enter your API key. Need an API key?  Get one "
+msgstr "Vänligen ange din API-nyckel, har du ingen klicka här "
+
+#: mappress.php:219
+msgid "MapPress could not load google maps.  Either your browser is incompatible or your API key is invalid.  Need an API key?  Get one "
+msgstr "MapPress kan inte ladda Google Maps. Antingen är det problem med din webbläsare eller så är din API-nyckel ogiltlig. Behöver du en API-nyckel klicka här "
+
+#: mappress.php:220
+msgid "here"
+msgstr "här"
+
+#: mappress.php:222
+msgid "That address is already on the map : "
+msgstr "Denna adress finns redan på kartan: "
+
+#: mappress.php:311
+msgid "MapPress isn't ready yet.  Please enter your Google Maps API Key on the "
+msgstr "MapPress fungerar inte riktigt än, vänligen ange din Google Maps API Key i "
+
+#: mappress.php:313
+msgid "MapPress options screen."
+msgstr "MapPress inställningsvy."
+
+#: mappress.php:343
+msgid "Map options "
+msgstr "Kartalternativ "
+
+#: mappress.php:344
+msgid "(leave blank for default)"
+msgstr "(lämna tom för standardinställning)"
+
+#: mappress.php:350
+msgid "Width "
+msgstr "Bredd "
+
+#: mappress.php:351
+msgid "Height "
+msgstr "Höjd "
+
+#: mappress.php:352
+msgid "Zoom (1-20) "
+msgstr "Zoom (1-20) "
+
+#: mappress.php:355
+msgid "Insert map in post &raquo;"
+msgstr "Infoga kartan i ditt meddelande;"
+
+#: mappress.php:368
+msgid "Address"
+msgstr "Adress"
+
+#: mappress.php:369
+msgid "Caption"
+msgstr "Rubrik"
+
+#: mappress.php:384
+msgid "Save address"
+msgstr "Spara adressen"
+
+#: mappress.php:385
+msgid "Clear form"
+msgstr "Rensa uppgifterna"
+
+#: mappress.php:564
+msgid "ACCESS DENIED: You don't have permission to do this."
+msgstr "ACCESS DENIED: Du saknar rättigheter att göra detta."
+
+#: mappress.php:590
+msgid "Settings saved"
+msgstr "Inställningarna sparade"
+
+#: mappress.php:597
+msgid "what's my country code?"
+msgstr "Ange landskod:"
+
+#: mappress.php:598
+#: mappress.php:603
+msgid "custom field"
+msgstr "Valbart fält"
+
+#: mappress.php:599
+msgid "shortcodes"
+msgstr "Förkortning"
+
+#: mappress.php:600
+msgid "MapPress help"
+msgstr "MapPress hjälp"
+
+#: mappress.php:621
+msgid "MapPress Options"
+msgstr "MapPress alternativ"
+
+#: mappress.php:628
+msgid "Google Maps API Key"
+msgstr "Google Maps API Key"
+
+#: mappress.php:641
+msgid "Map defaults"
+msgstr "Kartstandard"
+
+#: mappress.php:644
+msgid "Map width"
+msgstr "Kartbredd"
+
+#: mappress.php:644
+msgid "Enter a value in pixels (default is 400)"
+msgstr "Ange antalet pixlar (standard är 400)"
+
+#: mappress.php:645
+msgid "Map height"
+msgstr "Karthöjd"
+
+#: mappress.php:645
+msgid "Enter a value in pixels (default is 300)"
+msgstr "Ange antalet pixlar (standard är 300)"
+
+#: mappress.php:646
+msgid "Map zoom (1-20)"
+msgstr "Zoomnivå (1-20)"
+
+#: mappress.php:646
+msgid "1=fully zoomed out, 20=fully zoomed in (default is 15)"
+msgstr "1=högsta zoomnivå, 20=lägsta zoomnivå (standard är 15)"
+
+#: mappress.php:649
+msgid "Advanced Settings"
+msgstr "Avancerade Inställningar"
+
+#: mappress.php:652
+msgid "Country code for searches"
+msgstr "Landskod för dina sökningar"
+
+#: mappress.php:652
+msgid "Enter a country code to use as a default when searching for an address."
+msgstr "Ange den landskod som skall användas som standard vid dina sökningar."
+
+#: mappress.php:653
+msgid "Big map controls"
+msgstr "Stora kartknappar"
+
+#: mappress.php:653
+msgid "Check to show large map controls; uncheck for a small zoom control instead"
+msgstr "Markera för att få stora kartknappar, omarkerad för små kartknappar"
+
+#: mappress.php:654
+msgid "Map types button"
+msgstr "Knapp för karttyp"
+
+#: mappress.php:654
+msgid "Check to enable the \"map types\" button on the map"
+msgstr "Markera för att aktivera val av karttyp på kartbilden"
+
+#: mappress.php:655
+msgid "Initial map type"
+msgstr "Ursprunglig karttyp"
+
+#: mappress.php:657
+msgid "Choose the map type to use when the map is first displayed"
+msgstr "Ange vilken karttyp du vill att kartbilden först skall visas med."
+
+#: mappress.php:660
+msgid "Initial marker"
+msgstr "Första kartnål"
+
+#: mappress.php:660
+msgid "Check to open the first marker when the map is displayed."
+msgstr "Markera för att visa den första kartnålen när kartbilden visas."
+
+#: mappress.php:661
+msgid "GoogleBar"
+msgstr "Google sökruta"
+
+#: mappress.php:661
+msgid "Check to show the \"GoogleBar\" search box for local business listings."
+msgstr "Markera för att visa Google sökruta för närliggande företag."
+
+#: mappress.php:664
+msgid "Icons"
+msgstr "Ikoner"
+
+#: mappress.php:669
+msgid "Select a default map icon"
+msgstr "Ange den kartnål du vill ha som standard"
+
+#: mappress.php:696
+msgid "Save Changes"
+msgstr "Spara förändringarna"
+

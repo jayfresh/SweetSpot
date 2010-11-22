@@ -1,0 +1,709 @@
+/*
+Theme Name:sweetspot
+Theme URI:joshuabradley.co.uk
+Description: theme for sweetspot
+Author: Joshua Bradley
+Version: 1.0
+Tags: 
+*/
+
+
+/* =Reset default browser CSS. Based on work by Eric Meyer: http://meyerweb.com/eric/tools/css/reset/index.html
+-------------------------------------------------------------- */
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+	background: transparent;
+	border: 0;
+	margin: 0;
+	padding: 0;
+	vertical-align: baseline;
+}
+body {
+	line-height: 1;
+}
+h1, h2, h3, h4, h5, h6 {
+	clear: both;
+	font-weight: normal;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote {
+	quotes: none;
+}
+blockquote:before, blockquote:after {
+	content: '';
+	content: none;
+}
+del {
+	text-decoration: line-through;
+}
+/* tables still need 'cellspacing="0"' in the markup */
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+a img {
+	border: none;
+}
+
+
+/*
+	type
+*/
+body {
+	font: 16px/1.5em "Georgia", "Times New Roman", serif;
+/*	font: 16px/1.5em "Helvetica Neue", "Helvetica", arial, sans-serif;*/
+	color:#333;
+}
+
+a:link, a:visited {
+	 /* text-decoration:none;
+	border-bottom:solid 1px #aaa;
+	margin:0 1px;
+	padding:2px 0px;
+}
+a:hover, a:focus {
+	border-bottom:solid 0px #aaa;
+	margin:0 -2px;
+	padding:2px 3px; */
+}
+
+h1#title {
+	position:absolute;
+	bottom:0;
+	left:0;
+	margin:0;
+	height:100px;
+	width:204px;
+	text-indent:-999px;
+	overflow:hidden;
+}
+
+h2 {
+	margin:1em 0 1em;
+	line-height:1.2em;
+	color:#000;
+}
+
+h3 {
+	line-height:1.1em;
+	margin:2.5em 0 1em;
+}
+
+.description {
+	font-size:1.4em;
+	line-height:1.4em;
+	margin:0 0 1em;
+	background-color:#222;
+	color:#fff;
+	padding:20px 300px 20px 20px;
+	-moz-border-radius:10px;
+	-webkit-border-radius:10px;
+	border-radius:10px;
+	background: #222 url(images/black_tile_bg.jpg) repeat fixed top center;
+	position:relative;
+}
+
+div.col_1 .description,
+div.col_2 .description {
+	padding:20px;
+	margin-top:20px;	
+}
+
+div.description.home_hero {
+	background: #222 url(images/hero_home_big_chair_bg.jpg) repeat fixed top center;
+}
+div.description.faq_hero {
+	background: #222 url(images/hero_faq_big_chair_bg.jpg) repeat fixed top center;
+}
+
+p {
+	clear:both;
+}
+
+
+
+
+
+/* 
+	layout 
+*/
+
+html, body {
+	margin:0;
+	padding:0;
+	text-align:center;
+}
+
+
+
+div.container {
+	width:810px;
+	padding:0;
+	margin:0 auto;
+	text-align:left;
+	position:relative;			
+}
+
+#header {
+	margin:0;
+	padding-bottom:0px;
+}
+
+	#header div.container {
+		position:relative;
+		height:130px;
+	}	
+	
+	#header .navigation {
+		position:absolute;
+		bottom:0;
+		right:0;
+		color:#000;
+		list-style:none;
+		padding:0;
+		margin:0;
+	}
+	
+	
+	.navigation li {
+		display:inline;
+	}
+	.navigation li a:link,
+	.navigation li a:visited {
+		padding:10px 16px;
+		margin:0 ;
+		text-decoration:none;
+		border-bottom:none;
+		-moz-border-radius:6px;
+		-webkit-border-radius:6px;
+		border-radius:6px;
+	}
+	.navigation li a:hover,
+	.navigation li a:focus {
+		padding:10px 16px;
+		background: #222 url(/images/black_tile_bg.jpg) repeat-x fixed top right;
+		margin:0;
+	}
+	.navigation li a.active:link,
+	.navigation li a.active:visited {
+		color:#888;
+	}	
+	.navigation li a.active:hover,
+	.navigation li a.active:focus {
+		color:#888;
+		background:none;
+	}
+
+img.chair_left {
+	float:left;
+	margin:20px;
+}
+
+img.chair_right {
+	float:right;
+	margin:20px;
+}
+
+img.hero_floater {
+	position:absolute;
+	right:20px;
+	bottom:-30px;
+}
+
+
+#content {
+	padding:20px 0 0 0;
+	background-color:#fff;
+}
+
+	#content div.container {
+		padding-bottom:60px;
+		border-bottom:solid 1px #ccc;
+		overflow:auto;
+	}
+
+
+.full_width {
+	clear:both;
+	width:750px;
+	padding:1em 0;
+}
+
+.col_1 {
+	width:350px;
+	clear:left;
+	float:left;
+	padding:0 25px 40px 0;
+}
+
+.col_2 {
+	width:350px;
+	float:left;
+	padding:0 0 40px 25px;
+}
+
+#footer {
+	clear:both;
+}
+	#footer div.container {
+		height:180px;
+		margin:20px auto 70px;
+		position:relative;
+	}
+	
+	#footer div.container img {
+		position:absolute;
+		bottom:20px;
+		right:20px;
+	}
+	
+	#footer .navigation {
+		position:absolute;
+		top:0;
+		right:0;
+		color:#000;
+		list-style:none;
+		padding:0;
+		margin:10px 0 0 0;
+	}
+	
+li {
+}
+
+.property_image {
+	position: relative;
+}
+.propertyLet, .propertyUnderOffer {
+	background-image: url(images/let_banner.gif);
+	position: absolute;
+	display: block;
+	width: 100px;
+	height: 100px;
+}
+.propertyUnderOffer {
+	background-image: url(images/offer_banner.gif);
+}
+
+div.properties {
+	border-bottom:solid 1px #eee;
+	margin:1em 0 2em;
+}
+
+
+
+div.property {
+	margin:0;
+	/*padding:1em 1em; JRL- removed to stop scroll-bars on iFrame */
+	overflow:auto;
+/*	border-top: solid #eee 1px; */
+}
+
+
+.property:hover {
+	/* background-color: #f3f3f3; */
+}
+
+.clickable {
+	cursor: pointer;
+}
+
+div.property img {
+}
+
+div.property div.adr {
+	float:left;
+	margin-left: 1em;
+} 
+div.property div.details {
+	text-align:right;
+	float:right;
+	width:30%;
+}
+div.property div.details p {
+	margin:0 0 0.5em;
+	
+}
+div.property div.details a {
+	white-space:nowrap;
+}
+
+
+
+/* 
+	vcard 
+*/
+#footer div.vcard {
+	position:absolute;
+	/*bottom:0;*/
+	left:0px;
+	width:15em;
+	background-color:#ddd;
+	color:#777;
+	font-size:0.7em;
+	padding:18px 10px 20px 60px;
+	-moz-border-radius: 6px;
+	-webkit-border-radius: 6px;
+	border-radius: 6px;	
+}
+#footer div.vcard abbr {
+	text-decoration:none;
+	border-style:none;
+}
+#footer div.vcard span.fn {
+	font-size:1.3em;
+	font-weight:bold;
+	color:#555;
+}
+#footer div.vcard:hover,
+#footer div.vcard.blink {
+	background-color:#ccc;
+}
+
+
+
+/*
+	Property tabs / details
+*/
+
+ul.propertyTabs {
+	display: inline;
+	list-style-image: none;
+	list-style-type: none;
+}
+
+ul.propertyTabs li {
+	float: right;
+	list-style-image: none;
+	font-size: 0.8em;
+}
+
+ul.propertyTabs li a {
+	height: 20px;
+	border: #ddd 1px solid;
+	border-bottom: none;
+	padding: 4px 10px 6px;
+	margin: 0 0 0 3px;
+	z-index: 4;
+	position: relative;
+	
+}
+
+ul.propertyTabs li.active a {
+	background-color: white;	
+}
+
+.content {
+	clear: both;
+	padding: 0 0;
+	width: 750px;
+}
+
+.tabInfo {
+	clear: both;
+	position: relative;
+	z-index: 2;
+}
+
+
+/* begin css tabs */
+
+ul.tabnav { /* general settings */
+text-align: right; /* set to left, right or center */
+margin: 0em 0 1em 0; /* set margins as desired */
+font: 13px Georgia, arial, sans-serif; /* set font as desired */
+border-bottom: 1px solid #eee; /* set border COLOR as desired */
+list-style-type: none;
+padding: 3px 10px 3px 10px; /* THIRD number must change with respect to padding-top (X) below */
+}
+
+ul.tabnav li { /* do not change */
+display: inline;
+}
+
+body#property .tabnav li.ui-tabs-selected { /* settings for selected tab */
+border-bottom: 1px solid #fff; /* set border color to page background color */
+background-color: #fff; /* set background color to match above border color */
+}
+
+body#property .tabnav li.ui-tabs-selected a { /* settings for selected tab link */
+background-color: #fff; /* set selected tab background color as desired */
+color: #4763AE; /* set selected tab link color as desired */
+position: relative;
+top: 1px;
+padding-top: 4px; /* must change with respect to padding (X) above and below */
+}
+
+body#property ul.tabnav li a { /* settings for all tab links */
+padding: 3px 4px; /* set padding (tab size) as desired; FIRST number must change with respect to padding-top (X) above */
+border: 1px solid #eee; /* set border COLOR as desired; usually matches border color specified in #tabnav */
+margin-right: 0px; /* set additional spacing between tabs as desired */
+text-decoration: none;
+border-bottom: none;
+margin: auto;
+outline: none;
+background-color: #ebebeb;
+}
+
+
+body#property .tabnav li a:hover {
+	background-color: #ddd;
+	color: #4763AE;
+}
+
+body#property .tabnav li a:focus,
+body#property .tabnav li a:visited {
+/*color: #4763AE; */
+}
+
+/* end css tabs */
+
+.ui-tabs-hide {  
+	display: none;  
+}  
+
+.map {
+	width: 425px;
+}
+
+.maptext {
+	width: 260px;
+	margin-left: 25px;
+}
+
+/* 
+	colours 
+*/
+
+/* default */
+body {
+	border-top:solid 4px #CB2E6E;
+}
+h1#logo {
+	background:#fff url(images/SweetSpotLogoPink.png) no-repeat top left;
+}
+body a:link, 
+body a:visited {
+	color:#CB2E6E;
+}
+body a:hover, 
+body a:focus,
+body .navigation a.active:link,
+body .navigation a.active:visited,
+body .navigation a.active:hover,
+body .navigation a.active:focus {
+	background-color:#CB2E6E;
+	color:#fff;
+}
+
+
+/* home */
+body#sweetspot {
+	border-top:solid 4px #CB2E6E;
+}
+body#sweetspot h1#title {
+	background:#fff url(images/SweetSpotLogoPink.png) no-repeat top left;
+}
+body#sweetspot a:link, 
+body#sweetspot a:visited {
+	color:#CB2E6E;
+}
+body#sweetspot a:hover, 
+body#sweetspot a:focus,
+body#sweetspot .navigation a.active:link,
+body#sweetspot .navigation a.active:visited,
+body#sweetspot .navigation a.active:hover,
+body#sweetspot .navigation a.active:focus {
+	background-color:#CB2E6E;
+	color:#fff;
+}
+
+	
+
+
+/* faq */
+body#faq {
+	border-top:solid 4px #85A53E;
+}
+body#faq h1#title {
+	background:#fff url(images/SweetSpotLogoGreen.png) no-repeat top left;
+}
+body#faq a:link, 
+body#faq a:visited {
+	color:#85A53E;
+}
+body#faq a:hover, 
+body#faq a:focus,
+body#faq .navigation a.active:link,
+body#faq .navigation a.active:visited,
+body#faq .navigation a.active:hover,
+body#faq .navigation a.active:focus {
+	background-color:#85A53E;
+	color:#fff;
+}
+
+ /* property */
+body#property {
+	border-top:solid 4px #4763AE;
+}
+body#property h1#title {
+	background:#fff url(images/SweetSpotLogoBlue.png) no-repeat top left;
+}
+body#property a:link, 
+body#property a:visited {
+	color:#4763AE;
+}
+body#property a:hover, 
+body#property a:focus,
+body#property .navigation a.active:link,
+body#property .navigation a.active:visited,
+body#property .navigation a.active:hover,
+body#property .navigation a.active:focus {
+	background-color:#4763AE;
+	color:#fff;
+}
+div.property img {
+	border-color:#4763AE;
+}
+
+/* Team */
+
+body#team {
+	border-top:solid 4px #f3724a;
+}
+body#team h1#title {
+	background:#fff url(images/SweetSpotLogoRed.png) no-repeat top left;
+}
+body#team a:link, 
+body#team a:visited {
+	color:#f3724a;
+}
+body#team a:hover, 
+body#team a:focus,
+body#team .navigation a.active:link,
+body#team .navigation a.active:visited,
+body#team .navigation a.active:hover,
+body#team .navigation a.active:focus {
+	background-color:#f3724a;
+	color:#fff;
+}
+div.team img {
+	border-color:#f3724a;
+}
+
+
+div.team ul {
+	list-style: none;
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+div.team ul li img {
+	margin: 0 20px 20px 0;
+}
+
+.team ul li div {
+	width: 500px;
+}
+
+.team ul li {
+	clear: both;
+	border-bottom:1px solid #EEEEEE;
+	
+}
+
+.team ul li h4 {
+	margin: 0 0 0 0;
+}
+
+.team ul li h3 {
+	margin-bottom: 0em; 
+}
+
+.team ul li span {
+	display: block;
+	font-size: 0.8em;
+}
+
+div.team {
+	margin: 1em 0 2em;
+}
+
+
+/* General Purpose */
+
+.left {
+	float: left;
+}
+
+.right {
+	float: right;
+}
+
+.clearboth {
+	clear: both;
+}
+
+
+/* GALLERY */
+
+ul.gallery, ul.gallery li {
+	list-style: none;
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+}
+
+ul.gallery {
+	width:615px;
+	margin: auto;
+}
+
+ul.gallery li {
+	width: 200px;
+	margin: 0 5px 5px 0;
+	float: left;
+}
+
+ul.outlined li {
+	border: 1px #ccc solid;
+	width: 198px;
+}
+ul.outlined li img {
+	width: 198px;
+}
+
+body#property .gallery li a {
+	display: block;
+	border: none;
+	padding: 0;
+	margin: 0;
+}
+
+body#property .gallery a img {
+	border: none;
+}
+
+body#property .gallery a img:hover {
+	border: none;
+}
+
+body#property .pp_pic_holder a,
+body#property .pp_pic_holder a:visited,
+body#property .pp_pic_holder a:hover,
+body#property .pp_pic_holder a:focus,
+body#property .pp_pic_holder a:link {
+background-color: transparent;
+border: none;
+}
+
